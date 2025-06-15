@@ -1,6 +1,6 @@
 ---
 abstract: This is a collection of Ansible playbooks that will create a CA usable
-   for Kubernetes and etcd clusters.
+  for Kubernetes and etcd clusters.
 authors: Xander Harris
 date: 2024-03-08
 title: Ansible CA
@@ -15,14 +15,13 @@ title: Ansible CA
 
 ```{toctree}
 :maxdepth: 1
-:caption: Playbooks
+:caption: roles
 
-ca/index
-int/index
-sign/index
+roles/glances/README
 ```
 
 ```{index} playbooks; ca
+
 ```
 
 ## Readme
@@ -31,9 +30,11 @@ sign/index
 :maxdepth: 1
 
 readme
+.github/index
 ```
 
 ```{index} metadata; repository
+
 ```
 
 ## References
