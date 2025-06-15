@@ -10,14 +10,16 @@ ansible-navigator = "*"
 gitpython = "*"
 loguru = "*"
 redis = "*"
+pipenv = "*"
 
 [dev-packages]
+ansible-lint = "*"
+gitpython = "*"
+loguru = "*"
 molecule = "*"
+myst-parser = {extras = ["linkify"], version = "*"}
 pytest = "*"
 pytest-cov = "*"
-
-[docs]
-myst-parser = {extras = ["linkify"], version = "*"}
 sphinx = "*"
 sphinx-ansible = "*"
 sphinx-autobuild = "*"
@@ -25,6 +27,7 @@ sphinx-copybutton = "*"
 sphinx-design = "*"
 sphinx-favicon = "*"
 sphinx-nefertiti = "*"
+sphinx-notfound-page = "*"
 sphinx-pyscript = "*"
 sphinx-tippy = "*"
 sphinx-togglebutton = "*"
@@ -32,11 +35,3 @@ sphinxcontrib-autoyaml = "*"
 sphinxemoji = "*"
 sphinxext-opengraph = "*"
 sphinxext-rediraffe = "*"
-sphinx-notfound-page = "*"
-
-[lint]
-ansible-lint = "*"
-
-[git]
-loguru = "*"
-gitpython = "*"
