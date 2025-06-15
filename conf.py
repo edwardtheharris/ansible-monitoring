@@ -44,7 +44,7 @@ extensions = [
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_static_path = ["_static"]
-html_theme = "sphinx_book_theme"]
+html_theme = "sphinx_book_theme"
 html_theme_options = {
     "logo": "img/ansible.png",
     "repository_url": "https://github.com/edwardtheharris/ansible-glances",
