@@ -17,7 +17,9 @@ title: Ansible CA
 :maxdepth: 1
 :caption: roles
 
-roles/glances/README
+roles/glances/readme
+roles/promtail/readme
+roles/exporters/readme
 ```
 
 ```{index} playbooks; ca

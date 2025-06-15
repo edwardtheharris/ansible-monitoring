@@ -1,0 +1,7 @@
+---
+- name: Install glances
+  hosts: all
+  roles:
+    - role: glances
+      tags:
+        - glances
