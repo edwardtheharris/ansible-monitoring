@@ -1,6 +1,7 @@
-_build/
-.venv/
-*.xml
-.vscode/
-.secret/
 *.xcf
+*.xml
+.ansible
+.secret/
+.venv/
+.vscode/
+_build/
