@@ -18,6 +18,8 @@ title: Ansible CA
 :caption: roles
 
 roles/glances/readme
+roles/promtail/readme
+roles/exporters/readme
 ```
 
 ```{index} playbooks; ca
