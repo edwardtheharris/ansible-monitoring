@@ -1,3 +1,18 @@
-#SPDX-License-Identifier: MIT-0
+# SPDX-License-Identifier: MIT-0
 ---
 # tasks file for exporters
+- name: Install exporters
+  community.general.pacman:
+    name: "{{ item }}"
+    executable: yay
+    state: present
+  loop:
+    - prometheus-node-exporter
+- name: Enable exporters
+  ansible.builtin.service:
+    name: "{{ item }}"
+    state: restarted
+    enabled: true
+  become: true
+  loop:
+    - prometheus-node-exporter
