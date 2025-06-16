@@ -14,3 +14,17 @@
     group: root
     mode: ug+rw
   become: true
+- name: Update glances service
+  ansible.builtin.copy:
+    src: glances.service
+    dest: /usr/lib/systemd/system/glances.service
+    owner: root
+    group: root
+    mode: ug+rw
+  become: true
+- name: Start and enable glances service
+  ansible.builtin.service:
+    name: glances
+    state: restarted
+    enabled: true
+  become: true
