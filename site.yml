@@ -5,3 +5,6 @@
     - role: glances
       tags:
         - glances
+    - role: exporters
+      tags:
+        - exporters
