@@ -6,3 +6,4 @@
     name: glances
     executable: yay
     state: present
+- name: Configure glances
