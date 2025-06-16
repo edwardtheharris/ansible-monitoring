@@ -16,6 +16,7 @@ redis = "*"
 [dev-packages]
 molecule = "*"
 myst-parser = {extras = ["linkify"], version = "*"}
+pre-commit = "*"
 pytest = "*"
 pytest-cov = "*"
 sphinx = "*"
