@@ -11,6 +11,7 @@ gitpython = "*"
 loguru = "*"
 redis = "*"
 pipenv = "*"
+ansible-lint = "*"
 
 [dev-packages]
 ansible-lint = "*"

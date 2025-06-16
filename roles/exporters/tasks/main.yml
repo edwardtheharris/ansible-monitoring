@@ -3,16 +3,20 @@
 # tasks file for exporters
 - name: Install exporters
   community.general.pacman:
-    name: "{{ item }}"
+    name: "{{ exporters_item }}"
     executable: yay
     state: present
-  loop:
-    - prometheus-node-exporter
+  loop: >-
+    {{ exporters_packages }}
+  loop_control:
+    loop_var: exporters_item
 - name: Enable exporters
   ansible.builtin.service:
-    name: "{{ item }}"
+    name: "{{ exporters_item }}"
     state: restarted
     enabled: true
   become: true
-  loop:
-    - prometheus-node-exporter
+  loop: >-
+    {{ exporters_services }}
+  loop_control:
+    loop_var: exporters_item
