@@ -27,7 +27,7 @@ scrape_configs:
           hostname: {{ promtail_hostname }}.{{ promtail_domain }}
           job: log-dirs
           service: log-dirs-{{ promtail_hostname }}
-      {% if promtail_enable_samba %}
+{% if promtail_enable_samba %}
       - targets:
           - localhost
         labels:
@@ -36,7 +36,7 @@ scrape_configs:
           hostname: {{ promtail_hostname }}.{{ promtail_domain }}
           job: samba
           service: samba-{{ promtail_hostname }}
-      {% endif %}
+{%- endif %}
   - job_name: journal
     journal:
       # Label map to add to every log coming out of the journal
