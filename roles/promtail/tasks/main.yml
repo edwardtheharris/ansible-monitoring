@@ -11,7 +11,7 @@
     state: present
 - name: Configure promtail
   ansible.builtin.template:
-    src: promtail.yaml
+    src: promtail.yaml.j2
     dest: /etc/loki/promtail.yaml
     owner: promtail
     group: promtail
