@@ -8,3 +8,6 @@
     - role: exporters
       tags:
         - exporters
+    - role: promtail
+      tags:
+        - promtail
