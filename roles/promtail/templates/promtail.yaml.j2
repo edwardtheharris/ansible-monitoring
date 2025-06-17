@@ -41,7 +41,10 @@ scrape_configs:
       path: /var/log/journal
       # field from the journal entry.
       labels:
-        {{ promtail_journal_labels }}
+        host: {{ promtail_hostname }}
+        hostname: {{ promtail_hostname }}.{{ promtail_domain }}
+        job: journal
+        service: journal-{{ promtail_hostname }}
     # Get labels from journal, when it is not empty
     relabel_configs:
       - source_labels: ["__journal__systemd_unit"]
