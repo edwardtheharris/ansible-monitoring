@@ -16,6 +16,7 @@
     owner: promtail
     group: promtail
     mode: ug+rw
+    force: true
   become: true
   notify:
     - Restart Promtail
