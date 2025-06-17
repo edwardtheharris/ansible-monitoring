@@ -3,14 +3,10 @@
 # tasks file for glances
 - name: Install glances
   community.general.pacman:
-    name: glances
-    executable: yay
-    state: present
-- name: Install glances harder
-  ansible.builtin.pip:
     name: >-
       {{ glances_item }}
-    virtualenv: /etc/glances
+    executable: yay
+    state: present
   loop: >-
     {{ glances_packages }}
   loop_control:
@@ -31,9 +27,15 @@
     group: root
     mode: ug+rw
   become: true
-- name: Start and enable glances service
-  ansible.builtin.service:
-    name: glances
-    state: restarted
-    enabled: true
+- name: Install glances harder
+  ansible.builtin.pip:
+    name: >-
+      {{ glances_item }}
+    virtualenv: /etc/glances
   become: true
+  loop: >-
+    {{ glances_pip_packages }}
+  loop_control:
+    loop_var: glances_item
+  notify:
+    - Start and enable glances service

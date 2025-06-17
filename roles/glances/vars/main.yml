@@ -3,6 +3,11 @@
 # vars file for glances
 glances_cors_origins: ".*"
 glances_packages:
+  - glances
+  - python
+  - python-virtualenv
+glances_pip_packages:
   - pip
+  - virtualenv
   - >-
     glances[all]
