@@ -2,14 +2,6 @@
 ---
 # vars file for promtail
 promtail_domain: example.com
+promtail_enable_samba: false
 promtail_hostname: localhost
 promtail_loki_client_url: http://localhost:3100/loki/api/v1/push
-promtail_static_configs:
-  - targets:
-      - localhost
-    labels:
-      __path__: /var/log/samba/log*
-      host: localhost
-      hostname: localhost.example.com
-      job: samba
-      service: samba-localhost

@@ -17,3 +17,5 @@
     group: promtail
     mode: ug+rw
   become: true
+  notify:
+    - Restart Promtail
