@@ -1,9 +1,6 @@
 # SPDX-License-Identifier: MIT-0
 ---
 # tasks file for promtail
-- name: Output Variables
-  ansible.legacy.debug:
-    var: ansible_facts
 - name: Install promtail
   community.general.pacman:
     executable: yay
@@ -16,6 +13,7 @@
     owner: promtail
     group: promtail
     mode: ug+rw
+    force: true
   become: true
   notify:
     - Restart Promtail
