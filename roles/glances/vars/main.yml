@@ -2,3 +2,7 @@
 ---
 # vars file for glances
 glances_cors_origins: ".*"
+glances_packages:
+  - pip
+  - >-
+    glances[all]
