@@ -1,3 +1,26 @@
 # SPDX-License-Identifier: MIT-0
 ---
-# defaults file for promtail
+# vars file for promtail
+promtail_loki_client_url: http://localhost:3100/loki/api/v1/push
+promtail_static_configs:
+  - targets:
+      - localhost
+    labels:
+      __path__: /var/log/*log
+      host: localhost
+      hostname: localhost.example.com
+      job: log-files
+      service: log-files-localhost
+  - targets:
+      - localhost
+    labels:
+      __path__: /var/log/**/*log
+      host: localhost
+      hostname: localhost.example.com
+      job: log-dirs
+      service: log-dirs-localhost
+promtail_journal_labels:
+  host: localhost
+  hostname: localhost.example.com
+  job: journald
+  service: journald-localhost

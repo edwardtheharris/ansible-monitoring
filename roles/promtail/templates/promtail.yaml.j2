@@ -1,0 +1,77 @@
+server:
+  http_listen_port: 9080
+  grpc_listen_port: 0
+
+positions:
+  filename: /tmp/positions.yaml
+
+clients:
+  - url: {{ loki_client_url }}
+
+scrape_configs:
+  - job_name: system
+    static_configs:
+      - targets:
+        - localhost
+        labels:
+          __path__: /var/log/*log
+          host: marius.breeze-blocks.net
+          job: var-log-files
+          service: marius-var-log-files
+      - targets:
+          - localhost
+        labels:
+          __path__: /var/log/**/*log
+          host: marius.breeze-blocks.net
+          job: var-log-dirs
+          service: marius-var-log-dirs
+      - targets:
+          - localhost
+        labels:
+          __path__: /var/log/monero/monero.log
+          host: marius.breeze-blocks.net
+          hostname: marius
+          job: monero
+          service: marius-monero
+      - targets:
+          - localhost
+        labels:
+          __path__: /var/log/samba/log*
+          host: marius.breeze-blocks.net
+          job: samba
+          service: marius-samba
+  - job_name: journal
+    journal:
+      # Label map to add to every log coming out of the journal
+      # When true, log messages from the journal are passed through the
+      # pipeline as a JSON message with all of the journal entries' original
+      # fields. When false, the log message is the text content of the MESSAGE
+      json: true
+      max_age: 3600h
+      # Path to a directory to read entries from. Defaults to system
+      # paths (/var/log/journal and /run/log/journal) when empty.
+      path: /var/log/journal
+      #matches: _TRANSPORT=kernel
+      # field from the journal entry.
+      labels:
+        host: marius.breeze-blocks.net
+        job: journald
+        service: marius-journald
+    # Get labels from journal, when it is not empty
+    relabel_configs:
+      - source_labels: ["__journal__systemd_unit"]
+        target_label: "unit"
+      - source_labels: ["__journal__hostname"]
+        target_label: host
+      - source_labels: ["__journal__systemd_unit"]
+        target_label: systemd_unit
+        regex: "(.+)"
+      - source_labels: ["__journal__systemd_user_unit"]
+        target_label: systemd_user_unit
+        regex: "(.+)"
+      - source_labels: ["__journal__transport"]
+        target_label: transport
+        regex: "(.+)"
+      - source_labels: ["__journal_priority_keyword"]
+        target_label: severity
+        regex: "(.+)"

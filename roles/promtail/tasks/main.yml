@@ -1,3 +1,19 @@
 # SPDX-License-Identifier: MIT-0
 ---
 # tasks file for promtail
+- name: Output Variables
+  ansible.legacy.debug:
+    var: ansible_facts
+- name: Install promtail
+  community.general.pacman:
+    executable: yay
+    name: promtail
+    state: present
+- name: Configure promtail
+  ansible.builtin.template:
+    src: promtail.yaml
+    dest: /etc/loki/promtail.yaml
+    owner: promtail
+    group: promtail
+    mode: ug+rw
+  become: true
