@@ -13,8 +13,3 @@ promtail_static_configs:
       hostname: localhost.example.com
       job: samba
       service: samba-localhost
-promtail_journal_labels:
-  host: localhost
-  hostname: localhost.example.com
-  job: journald
-  service: journald-localhost
