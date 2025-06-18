@@ -2,22 +2,14 @@
 ---
 # tasks file for exporters
 - name: Update pacman config
-  ansible.builtin.lineinfile:
+  ansible.builtin.copy:
     dest: /etc/pacman.conf
     group: root
-    insertafter: >-
-      {{ exporters_item.insertafter }}
-    line: >-
-      {{ exporters_item.line }}
     mode: ug+rw
     owner: root
-    search_string: >-
-      {{ exporters_item.search_string }}
-  loop: >-
-    {{ exporters_lineinfile }}
-  loop_control:
-    loop_var: exporters_item
+    src: pacman.conf
   become: true
+  when: not nvidia_gpu
 - name: Update pacman cache
   community.general.pacman:
     update_cache: true
