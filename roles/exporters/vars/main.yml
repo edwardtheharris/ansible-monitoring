@@ -1,9 +1,14 @@
 # SPDX-License-Identifier: MIT-0
 ---
 # vars file for exporters
+exporters_nameserver: 8.8.8.8
 exporters_packages:
-  - prometheus-node-exporter
   - fping-exporter
+  - prometheus-node-exporter
+  - prometheus-ping-exporter
+exporters_ping_targets:
+  - 8.8.8.8
 exporters_services:
-  - prometheus-node-exporter
   - fping-exporter
+  - prometheus-node-exporter
+  - prometheus-ping-exporter
