@@ -3,12 +3,10 @@
 # vars file for exporters
 exporters_nameserver: 8.8.8.8
 exporters_packages:
-  - fping-exporter
   - prometheus-node-exporter
   - prometheus-ping-exporter
 exporters_ping_targets:
   - 8.8.8.8
 exporters_services:
-  - fping-exporter
   - prometheus-node-exporter
   - prometheus-ping-exporter
