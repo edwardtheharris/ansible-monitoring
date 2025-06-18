@@ -1,6 +1,13 @@
 # SPDX-License-Identifier: MIT-0
 ---
 # vars file for exporters
+exporters_lineinfile:
+  - insertafter: "#Include = /etc/pacman.d/mirrorlist"
+    line: "[multilib]"
+    search_string: "#[multilib]"
+  - insertafter: "[multilib]"
+    line: "Include = /etc/pacman.d/mirrorlist"
+    search_string: "#Include = /etc/pacman.d/mirrorlist"
 exporters_packages:
   - prometheus-node-exporter
   - prometheus-ping-exporter
