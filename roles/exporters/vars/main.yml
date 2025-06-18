@@ -3,5 +3,7 @@
 # vars file for exporters
 exporters_packages:
   - prometheus-node-exporter
+  - prometheus-ping-exporter
 exporters_services:
   - prometheus-node-exporter
+  - prometheus-ping-exporter
