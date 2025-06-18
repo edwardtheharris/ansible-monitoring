@@ -1,11 +1,25 @@
 # SPDX-License-Identifier: MIT-0
 ---
 # tasks file for exporters
-- name: Install exporters
+- name: Update pacman config
+  ansible.builtin.copy:
+    dest: /etc/pacman.conf
+    group: root
+    mode: ug+rw
+    owner: root
+    src: pacman.conf
+  become: true
+  when: not nvidia_gpu
+- name: Update pacman cache
   community.general.pacman:
-    name: "{{ exporters_item }}"
+    update_cache: true
     executable: yay
-    state: present
+- name: Install exporters
+  ansible.builtin.command:
+    cmd: "yay -Syyu --noconfirm {{ exporters_item }}"
+  args:
+    creates: >-
+      "${HOME}/.cache/yay/{{ exporters_item }}"
   loop: >-
     {{ exporters_packages }}
   loop_control:
@@ -20,3 +34,12 @@
     {{ exporters_services }}
   loop_control:
     loop_var: exporters_item
+- name: Configure ping exporter
+  ansible.builtin.template:
+    dest: /etc/ping_exporter/config.yml
+    group: root
+    mode: ug+rw
+    owner: root
+    src: config.yml.j2
+  become: true
+  notify: Restart ping exporter
