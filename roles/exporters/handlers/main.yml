@@ -1,3 +1,9 @@
 # SPDX-License-Identifier: MIT-0
 ---
 # handlers file for exporters
+- name: Restart ping exporter
+  ansible.builtin.service:
+    name: prometheus-ping-exporter
+    enabled: true
+    state: restarted
+  become: true
