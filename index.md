@@ -39,7 +39,7 @@ security
 
 ```
 
-## Glossary
+### Glossary
 
 ```{glossary}
 glances
@@ -71,7 +71,7 @@ YAML
   language for all programming languages. It is much better than JSON.
 ```
 
-## Indices and tables
+### Indices and tables
 
 - {ref}`genindex`
 - {ref}`modindex`
