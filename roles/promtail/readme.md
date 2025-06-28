@@ -1,8 +1,13 @@
 ---
+abstract: Readme for promtail Ansible role.
+authors:
+  - name: Xander Harris
+    email: xandertheharris@gmail.com
+date: 2025-06-27
 title: promtail role
 ---
 
-Install promtail.
+Install and configure {term}`promtail`.
 
 ## promtail Requirements
 
@@ -30,7 +35,7 @@ Use the playbook like this.
 
 ## promtail License
 
-BSD
+[Copyright (c) 2025](project:/license.md)
 
 ## promtail Author Information
 

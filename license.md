@@ -1,29 +1,15 @@
 ---
-abstract: The license, or lack thereof.
-date: 2024-03-08
-title: Unlicensed
+abstract: Copyright (c) 2025 Xander Harris. All rights reserved.
+authors:
+  - name: Xander Harris
+    email: xandertheharris@gmail.com
+date: 2025-06-27
+title: Copyright (c) 2025
 ---
 
-This is free and unencumbered software released into the public domain.
+Copyright (c) 2025 Xander Harris. All rights reserved.
 
-Anyone is free to copy, modify, publish, use, compile, sell, or distribute this
-software, either in source code form or as a compiled binary, for any purpose,
-commercial or non-commercial, and by any means.
-
-In jurisdictions that recognize copyright laws, the author or authors of this
-software dedicate any and all copyright interest in the software to the public
-domain. We make this dedication for the benefit of the public at large and to
-the detriment of our heirs and successors. We intend this dedication to be an
-overt act of relinquishment in perpetuity of all present and future rights to
-this software under copyright law.
-
-## Limitation of Liability
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
-ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-For more information, please refer to [unlicense.org](https://unlicense.org)
+This code may be used for any purpose with the sole exception
+of training computer models of any kind. It is presented without
+warranty if used by anyone other than the author will be used
+entirely at the risk and responsibility of the user.

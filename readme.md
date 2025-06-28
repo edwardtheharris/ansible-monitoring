@@ -1,41 +1,42 @@
 ---
-abstract: The readme for some Ansible playbooks that have the goal of deploying
-  a Root Certificate Authority to a Linux host.
-authors: Xander Harris
-date: 2024-03-08
-title: Ansible CA Readme
+abstract: Readme providing basic usage for the standard monitoring package
+  used by the author for systesms on his network.
+authors:
+  - name: Xander Harris
+    email: xandertheharris@gmail.com
+date: 2025-06-27
+title: Ansible Monitoring Readme
 ---
 
 ## Assumptions
 
 The default configuration assumes a vault password exists at
-{file}`/etc/ansible/vault`. It also assumes the inventory file is in YAML format
-and located at {file}`/etc/ansible/hosts.yaml`
-
-### Fact Caching
-
-The default configuration uses fact caching with Redis running on the controller
-with the default port.
+{file}`/etc/ansible/vault`. It also assumes the inventory file is in {term}`YAML`
+format and located at {file}`/etc/ansible/hosts.yml`
 
 ## Usage
 
 You can find an example inventory file below, this inventory is intended
-to house a Kubernetes cluster with a pair of control planes that are members
-of a Samba Active Directory Domain that contains a pair of controllers and
-is responsible for authentication, file, and routing services.
+to house a bare metal {term}`Kubernetes` cluster with a single control
+plane and three nodes. This inventory is an example only and does not
+represent any actual resources.
 
 ```{code-block} yaml
 :caption: /etc/ansible/hosts.yaml
 
-dc:
+all:
   hosts:
-    dc01.example.com:
+    kcp01.example.com:
       ansible_user: user
-    dc02.example.com:
+    k8s01.example.com:
       ansible_user: user
-np:
+    k8s02.example.com:
+      ansible_user: user
+    k8s02.example.com:
+      ansible_user: user
+kcp:
   hosts:
-    napalm.example.com:
+    kcp01.example.com:
       ansible_user: user
 kcp:
   hosts:
@@ -43,16 +44,6 @@ kcp:
       ansible_user: user
     kcp02.example.com:
       ansible_user: user
-ca:
-  hosts:
-    ca.example.com:
+    kcp03.example.com:
       ansible_user: user
-      secret_ca_passphrase: secret-ca-passphrase
-```
-
-```{toctree}
-:caption: Other Information
-
-license
-security
 ```
