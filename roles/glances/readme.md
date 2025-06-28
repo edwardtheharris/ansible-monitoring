@@ -3,7 +3,7 @@ abstract: Ansible role that installs glances.
 authors:
   - name: Xander Harris
     email: xandertheharris@Gmail.com
-title: Ansible glances role
+title: glances role
 ---
 
 Install {term}`glances` on the target hosts, configure a {term}`systemd`
