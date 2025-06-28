@@ -6,8 +6,8 @@ authors:
 title: Ansible glances role
 ---
 
-Install glances on the target hosts enable systemd service and
-Prometheus exporter.
+Install {term}`glances` on the target hosts, configure a {term}`systemd`
+service and export to {term}`Prometheus`.
 
 ## Glances Requirements
 
@@ -21,7 +21,7 @@ N/A
 
 N/A
 
-## Example Playbook
+## Glances Example Playbook
 
 This can be run using a playbook similar to the one below.
 
@@ -38,11 +38,11 @@ This can be run using a playbook similar to the one below.
         x: 42
 ```
 
-## License
+## Glances License
 
-MIT
+[Copyright (c) 2025](project:/license.md)
 
-## Author Information
+## Glances Author Information
 
 ```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
 

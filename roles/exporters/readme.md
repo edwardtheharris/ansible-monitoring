@@ -1,8 +1,14 @@
 ---
+abstract: Readme for the Prometheus exporters Ansible
+  role.
+authors:
+  - name: Xander Harris
+    email: xandertheharris@gmail.com
+date: 2025-06-27
 title: exporters role
 ---
 
-Install Prometheus exporters.
+Install {term}`Prometheus` exporters.
 
 ## Exporters Requirements
 
@@ -18,7 +24,7 @@ N/A
 
 ## Exporters Example Playbook
 
-Use something like this to run this.
+An example playbook is given below.
 
 ```{code-block} yaml
 :caption: site.yml
@@ -29,11 +35,11 @@ Use something like this to run this.
         - exporters
 ```
 
-## License
+## Exporters License
 
-BSD
+[Copyright (c) 2025](project:/license.md)
 
-## Author Information
+## Exporters Author Information
 
 ```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
 

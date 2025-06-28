@@ -9,11 +9,11 @@
 
 # pylint: disable=invalid-name,redefined-builtin
 
-author = "Xander Harris"
+author = "Xander Harris <xandertheharris@gmail.com>"
 autoyaml_root = "."
 autoyaml_depth = 10
 
-copyright = "2024, Xander Harris"
+copyright = "2025, Xander Harris"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -43,6 +43,7 @@ extensions = [
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
+html_logo = "_static/img/monitoring.png"
 html_static_path = ["_static"]
 html_theme = "sphinx_book_theme"
 myst_dmath_double_inline = True
