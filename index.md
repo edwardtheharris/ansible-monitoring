@@ -30,6 +30,7 @@ roles/exporters/readme
 
 readme
 .github/index
+changelog
 license
 security
 ```
