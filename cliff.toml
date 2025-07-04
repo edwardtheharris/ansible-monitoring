@@ -6,7 +6,15 @@
 # A Tera template to be rendered as the changelog's footer.
 # See https://keats.github.io/tera/docs/#introduction
 header = """
-# Changelog\n
+---
+abstract: This document contains the changelog for the Ansible Monitoring package.
+authors:
+  - name: Xander Harris
+    email: xandertheharris@gmail.com
+date: 2025-07-03
+title: Ansible Monitoring Changelog
+---
+
 All notable changes to this project will be documented in this file.\n
 """
 # A Tera template to be rendered for each release in the changelog.
