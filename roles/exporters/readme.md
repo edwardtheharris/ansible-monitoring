@@ -12,7 +12,9 @@ Install {term}`Prometheus` exporters.
 
 ## Exporters Requirements
 
-A Prometheus instance to export to.
+- Target hosts running {term}`ArchLinux`.
+- {term}`yay` installed on target hosts.
+- A running {term}`Prometheus` instance.
 
 ## Exporters Role Variables
 

@@ -42,6 +42,9 @@ security
 ### Glossary
 
 ```{glossary}
+ArchLinux
+  [ArchLinux](https://archlinux.org) os A simple, lightweight distribution
+
 glances
   [Glances](https://glances.readthedocs.io/en/latest/index.html) is a
   cross-platform monitoring tool that aims to present maximum information in
@@ -69,6 +72,9 @@ systemd
 YAML
   [YAML Ain't Markup Language™](https://yaml.org/) is a human-friendly data serialization
   language for all programming languages. It is much better than JSON.
+
+yay
+  [Yet Another Yogurt](https://github.com/Jguer/yay) is an AUR Helper Written in Go.
 ```
 
 ### Indices and tables

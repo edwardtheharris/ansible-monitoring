@@ -2,13 +2,17 @@
 ---
 # vars file for exporters
 exporters_nameserver: 8.8.8.8
+exporters_nvidia_gpu: false
 exporters_packages:
   - prometheus-node-exporter
   - prometheus-ping-exporter
   - prometheus-process-exporter
+  - prometheus-systemd-exporter
 exporters_ping_targets:
   - 8.8.8.8
 exporters_services:
   - process-exporter
   - prometheus-node-exporter
   - prometheus-ping-exporter
+  - prometheus-systemd-exporter
+exporters_username: username
