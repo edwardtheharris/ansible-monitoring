@@ -9,7 +9,12 @@
     owner: root
     src: pacman.conf
   become: true
-  when: not nvidia_gpu
+  when: not exporters_nvidia_gpu
+- name: Remove conflicting versions
+  community.general.pacman:
+    name: prometheus-process-exporter
+    executable: yay
+    state: absent
 - name: Update pacman cache
   community.general.pacman:
     update_cache: true

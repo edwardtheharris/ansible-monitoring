@@ -2,13 +2,17 @@
 ---
 # defaults file for exporters
 exporters_nameserver: 1.1.1.1
+exporters_nvidia_gpu: false
 exporters_packages:
   - prometheus-node-exporter
   - prometheus-ping-exporter
   - prometheus-process-exporter
+  - prometheus-systemd-exporter
 exporters_ping_targets:
   - 1.1.1.1
 exporters_services:
   - process-exporter
   - prometheus-node-exporter
   - prometheus-ping-exporter
+  - prometheus-systemd-exporter
+exporters_user: username
