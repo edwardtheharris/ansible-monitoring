@@ -12,7 +12,6 @@ title: Ansible Monitoring Index
 ## Roles
 
 ```{toctree}
-:maxdepth: 1
 :caption: roles
 
 roles/glances/readme

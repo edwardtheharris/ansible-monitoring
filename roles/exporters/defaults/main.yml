@@ -1,3 +1,14 @@
 # SPDX-License-Identifier: MIT-0
 ---
 # defaults file for exporters
+exporters_nameserver: 1.1.1.1
+exporters_packages:
+  - prometheus-node-exporter
+  - prometheus-ping-exporter
+  - prometheus-process-exporter
+exporters_ping_targets:
+  - 1.1.1.1
+exporters_services:
+  - process-exporter
+  - prometheus-node-exporter
+  - prometheus-ping-exporter

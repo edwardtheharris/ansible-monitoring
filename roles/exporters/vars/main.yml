@@ -5,8 +5,10 @@ exporters_nameserver: 8.8.8.8
 exporters_packages:
   - prometheus-node-exporter
   - prometheus-ping-exporter
+  - prometheus-process-exporter
 exporters_ping_targets:
   - 8.8.8.8
 exporters_services:
+  - process-exporter
   - prometheus-node-exporter
   - prometheus-ping-exporter
