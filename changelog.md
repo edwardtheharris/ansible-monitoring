@@ -9,17 +9,9 @@ title: Ansible Monitoring Changelog
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
-
-### 💼 Other
-
-- Merge pull request #36 from edwardtheharris/35-add-initial-release
-- 35 add initial release
-- Closes #35
-
 ## [0.0.1] - 2025-07-04
 
-### 💼 Other
+### 0.0.1 💼 Other
 
 - Initial commit
 - Drop old playbooks
@@ -69,11 +61,13 @@ All notable changes to this project will be documented in this file.
 - - [Release notes](https://github.com/actions/checkout/releases)
 - - [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
 - - [Commits](https://github.com/actions/checkout/compare/85e6279cec87321a52edac9c87bce653a07cf6c2...09d2acae674a48949e3602304ab46fd20ae0c42f)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: actions/checkout
--   dependency-version: '09d2acae674a48949e3602304ab46fd20ae0c42f'
--   dependency-type: direct:production
+- dependency-version: '09d2acae674a48949e3602304ab46fd20ae0c42f'
+- dependency-type: direct:production
 - ...
 - Signed-off-by: dependabot[bot] <support@github.com>
 - Signed-off-by: Xander Harris <xandertheharris@gmail.com>
@@ -186,12 +180,14 @@ All notable changes to this project will be documented in this file.
 - - [Release notes](https://github.com/pytest-dev/pytest/releases)
 - - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
 - - [Commits](https://github.com/pytest-dev/pytest/compare/8.4.0...8.4.1)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: pytest
--   dependency-version: 8.4.1
--   dependency-type: direct:development
--   update-type: version-update:semver-patch
+- dependency-version: 8.4.1
+- dependency-type: direct:development
+- update-type: version-update:semver-patch
 - ...
 - Signed-off-by: dependabot[bot] <support@github.com>
 - Signed-off-by: Xander Harris <xandertheharris@gmail.com>
@@ -206,12 +202,14 @@ All notable changes to this project will be documented in this file.
 - - [Release notes](https://github.com/urllib3/urllib3/releases)
 - - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
 - - [Commits](https://github.com/urllib3/urllib3/compare/2.4.0...2.5.0)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: urllib3
--   dependency-version: 2.5.0
--   dependency-type: indirect
--   dependency-group: pip
+- dependency-version: 2.5.0
+- dependency-type: indirect
+- dependency-group: pip
 - ...
 - Signed-off-by: dependabot[bot] <support@github.com>
 - Signed-off-by: Xander Harris <xandertheharris@gmail.com>
@@ -232,12 +230,14 @@ All notable changes to this project will be documented in this file.
 - Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.12.1 to 2.12.2.
 - - [Release notes](https://github.com/step-security/harden-runner/releases)
 - - [Commits](https://github.com/step-security/harden-runner/compare/002fdce3c6a235733a90a27c80493a3241e56863...6c439dc8bdf85cadbbce9ed30d1c7b959517bc49)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: step-security/harden-runner
--   dependency-version: 2.12.2
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
+- dependency-version: 2.12.2
+- dependency-type: direct:production
+- update-type: version-update:semver-patch
 - ...
 - Signed-off-by: dependabot[bot] <support@github.com>
 - Signed-off-by: Xander Harris <xandertheharris@gmail.com>
@@ -246,18 +246,21 @@ All notable changes to this project will be documented in this file.
 - Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.12.1 to 2.12.2.
 - - [Release notes](https://github.com/step-security/harden-runner/releases)
 - - [Commits](https://github.com/step-security/harden-runner/compare/002fdce3c6a235733a90a27c80493a3241e56863...6c439dc8bdf85cadbbce9ed30d1c7b959517bc49)
+
 - ---
+
 - Updated-dependencies:
 - - dependency-name: step-security/harden-runner
--   dependency-version: 2.12.2
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
+- dependency-version: 2.12.2
+- dependency-type: direct:production
+- update-type: version-update:semver-patch
 - ...
 - Signed-off-by: dependabot[bot] <support@github.com>
-- Merge branch 'dependabot/github_actions/step-security/harden-runner-2.12.2' of github.com:edwardtheharris/ansible-monitoring into dependabot/github_actions/step-security/harden-runner-2.12.2
+- Merge branch
+  'dependabot/github_actions/step-security/harden-runner-2.12.2' of github.com:edwardtheharris/ansible-monitoring into dependabot/github_actions/step-security/harden-runner-2.12.2
 - See #33
 - Merge pull request #31 from edwardtheharris/dependabot/github_actions/step-security/harden-runner-2.12.2
-- Bump step-security/harden-runner from 2.12.1 to 2.12.2
+- Bump step-security/harden-runner from 2.12.1 to 2.12.
 - See #33
 - Merge branch 'main' of github.com:edwardtheharris/ansible-monitoring into 33-add-process-exporter
 - Closes #33
