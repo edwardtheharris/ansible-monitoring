@@ -1,3 +1,8 @@
 # SPDX-License-Identifier: MIT-0
 ---
 # tasks file for grafana
+- name: Install grafana
+  community.general.pacman:
+    name: grafana
+    state: present
+    executable: yay

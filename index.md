@@ -14,9 +14,10 @@ title: Ansible Monitoring Index
 ```{toctree}
 :caption: roles
 
-roles/glances/readme
-roles/promtail/readme
 roles/exporters/readme
+roles/glances/readme
+roles/grafana/readme
+roles/promtail/readme
 ```
 
 ```{index} playbooks; ca
@@ -50,6 +51,10 @@ glances
   cross-platform monitoring tool that aims to present maximum information in
   minimal space through either a curses-based or Web-based interface. It can
   dynamically adapt the displayed information depending on the terminal size.
+
+Grafana
+  [Grafana](https://grafana.com/) is an observability tool that enables
+  centralized storage and analysis of metrics and logs from external sources.
 
 Kubernetes
   [Kubernetes](https://kubernetes.io/), also known as K8s, is an open source

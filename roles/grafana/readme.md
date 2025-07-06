@@ -1,27 +1,31 @@
 ---
-abstract: Ansible role that installs grafana.
+abstract: Ansible role that installs and configures grafana.
 authors:
   - name: Xander Harris
     email: xandertheharris@Gmail.com
 title: grafana role
 ---
 
-Install {term}`grafana` on the target hosts, configure a {term}`systemd`
+Install {term}`Grafana` on the target hosts, configure a {term}`systemd`
 service and export to {term}`Prometheus`.
 
-## grafana Requirements
+## {term}`Grafana` Requirements
 
-A working Python installation and the ability to write to {file}`/etc`.
+This role has the following requirements.
 
-## grafana Role Variables
+1. A working Python installation.
+2. The ability to write to {file}`/etc`.
+3. A system running {term}`ArchLinux`.
+
+## {term}`Grafana` Role Variables
 
 N/A
 
-## grafana Dependencies
+## {term}`Grafana` Dependencies
 
 N/A
 
-## grafana Example Playbook
+## {term}`Grafana` Example Playbook
 
 This can be run using a playbook similar to the one below.
 
@@ -38,11 +42,11 @@ This can be run using a playbook similar to the one below.
         x: 42
 ```
 
-## grafana License
+## {term}`Grafana` License
 
 [Copyright (c) 2025](project:/license.md)
 
-## grafana Author Information
+## {term}`Grafana` Role Author Information
 
 ```{sectionauthor} Xander Harris <xandertheharris@gmail.com>
 
