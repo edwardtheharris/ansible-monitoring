@@ -1,3 +1,17 @@
 # SPDX-License-Identifier: MIT-0
 ---
 # tasks file for grafana
+- name: Install grafana
+  community.general.pacman:
+    name: grafana
+    state: present
+    executable: yay
+- name: Template configuration file
+  ansible.builtin.template:
+    src: grafana.ini.j2
+    dest: /etc/grafana.ini
+    owner: grafana
+    mode: ug+rw
+    group: grafana
+  become: true
+  notify: Restart Grafana

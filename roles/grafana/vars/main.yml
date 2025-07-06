@@ -1,3 +1,9 @@
 # SPDX-License-Identifier: MIT-0
 ---
 # vars file for grafana
+grafana_db_pass: postgres
+grafana_db_type: postgres
+grafana_db_url: postgres://grafana:grafana@localhost:5432/grafana
+grafana_domain: grafana.local
+grafana_redis_connect: addr=127.0.0.1:6379,pool_size=100,db=0,ssl=false
+grafana_trusted_csrf: grafana.local localhost
