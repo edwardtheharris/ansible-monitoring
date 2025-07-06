@@ -11,3 +11,6 @@
     - role: promtail
       tags:
         - promtail
+    - role: grafana
+      tags:
+        - grafana

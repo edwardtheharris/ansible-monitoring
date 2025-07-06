@@ -19,7 +19,14 @@ This role has the following requirements.
 
 ## {term}`Grafana` Role Variables
 
-N/A
+|variable|description|default|
+|---|---|---|
+|grafana_db_pass|Password for the database|postgres|
+|grafana_db_type|Type of database (`mysql`, `postgres`, `sqlite`)|postgres|
+|grafana_db_url|URL of the database connection|postgres://grafana:grafana@localhost:5432/grafana|
+|grafana_domain|Domain name of the Grafana instance|grafana.local|
+|grafana_redis_connect|Connection information for Redis|addr=127.0.0.1:6379,pool_size=100,db=0,ssl=false|
+|grafana_trusted_csrf|Accepted request origins|grafana.local localhost|
 
 ## {term}`Grafana` Dependencies
 
