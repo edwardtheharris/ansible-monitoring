@@ -15,3 +15,12 @@
     group: grafana
   become: true
   notify: Restart Grafana
+- name: Stat config file
+  ansible.builtin.stat:
+    path: /etc/grafana.ini
+  register: grafana_config_stat
+- name: Validate config stat
+  ansible.builtin.assert:
+    that:
+      - grafana_config_stat.stat.exists
+      - grafana_config_stat.stat.isreg

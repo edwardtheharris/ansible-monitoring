@@ -26,8 +26,9 @@
     state: absent
 - name: Clean cache for yay
   ansible.builtin.command:
-    cmd: rm -rf "${HOME}/.cache/yay/prometheus-process-exporter"
-    removes: "${HOME}/.cache/yay/prometheus-process-exporter"
+    cmd: rm -rf "{{ lookup('env', 'HOME') }}/.cache/yay/prometheus-process-exporter"
+    removes: >-
+      {{ lookup('env', 'HOME') }}/.cache/yay/prometheus-process-exporter
   become: true
 - name: Update pacman cache
   community.general.pacman:
@@ -61,10 +62,16 @@
     {{ exporters_packages }}
   loop_control:
     loop_var: exporters_item
-  register: exporters_service_stat
+  register: exporters_services_stat
 - name: Validate exporters service stat
-  ansible.builtin.debug:
-    var: exporters_service_stat
+  ansible.builtin.assert:
+    that:
+      - exporters_item.stat.exists
+      - exporters_item.stat.isreg
+  loop: >-
+    {{ exporters_services_stat }}
+  loop_control:
+    loop_var: exporters_item
 - name: Configure ping exporter
   ansible.builtin.template:
     dest: /etc/ping_exporter/config.yml
