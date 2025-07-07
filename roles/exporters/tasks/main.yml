@@ -69,7 +69,7 @@
       - exporters_item.stat.exists
       - exporters_item.stat.isreg
   loop: >-
-    {{ exporters_services_stat }}
+    {{ exporters_services_stat.results }}
   loop_control:
     loop_var: exporters_item
 - name: Configure ping exporter
