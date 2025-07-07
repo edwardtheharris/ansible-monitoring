@@ -59,7 +59,7 @@
     path: >-
       /usr/lib/systemd/system/{{ exporters_item }}.service
   loop: >-
-    {{ exporters_packages }}
+    {{ exporters_services }}
   loop_control:
     loop_var: exporters_item
   register: exporters_services_stat
