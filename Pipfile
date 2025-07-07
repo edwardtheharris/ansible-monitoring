@@ -12,6 +12,7 @@ gitpython = "*"
 loguru = "*"
 pipenv = "*"
 redis = "*"
+argcomplete = "*"
 
 [dev-packages]
 ansible-dev-tools = "*"

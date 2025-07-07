@@ -39,3 +39,13 @@
     loop_var: glances_item
   notify:
     - Start and enable glances service
+- name: Stat glances executable
+  ansible.builtin.stat:
+    path: /etc/glances/bin/glances
+  register: glances_stat_exec
+- name: Validate glances executable
+  ansible.builtin.assert:
+    that:
+      - glances_stat_exec.stat.exists
+      - glances_stat_exec.stat.isreg
+      - glances_stat_exec.stat.executable

@@ -10,11 +10,25 @@
     src: pacman.conf
   become: true
   when: not exporters_nvidia_gpu
+- name: Update pacman config (nvidia)
+  ansible.builtin.copy:
+    dest: /etc/pacman.conf
+    group: root
+    mode: ug+rw
+    owner: root
+    src: nvidia.pacman.conf
+  become: true
+  when: exporters_nvidia_gpu
 - name: Remove conflicting versions
   community.general.pacman:
     name: prometheus-process-exporter
     executable: yay
     state: absent
+- name: Clean cache for yay
+  ansible.builtin.command:
+    cmd: rm -rf "${HOME}/.cache/yay/prometheus-process-exporter"
+    removes: "${HOME}/.cache/yay/prometheus-process-exporter"
+  become: true
 - name: Update pacman cache
   community.general.pacman:
     update_cache: true
@@ -39,6 +53,18 @@
     {{ exporters_services }}
   loop_control:
     loop_var: exporters_item
+- name: Stat exporter services
+  ansible.builtin.stat:
+    path: >-
+      /usr/lib/systemd/system/{{ exporters_item }}.service
+  loop: >-
+    {{ exporters_packages }}
+  loop_control:
+    loop_var: exporters_item
+  register: exporters_service_stat
+- name: Validate exporters service stat
+  ansible.builtin.debug:
+    var: exporters_service_stat
 - name: Configure ping exporter
   ansible.builtin.template:
     dest: /etc/ping_exporter/config.yml
@@ -48,3 +74,12 @@
     src: config.yml.j2
   become: true
   notify: Restart ping exporter
+- name: Stat ping exporter config
+  ansible.builtin.stat:
+    path: /etc/ping_exporter/config.yml
+  register: exporters_ping_config_stat
+- name: Validate ping exporter config
+  ansible.builtin.assert:
+    that:
+      - exporters_ping_config_stat.stat.exists
+      - exporters_ping_config_stat.stat.isreg
