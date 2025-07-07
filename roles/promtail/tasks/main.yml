@@ -17,3 +17,12 @@
   become: true
   notify:
     - Restart Promtail
+- name: Stat promtail config
+  ansible.builtin.stat:
+    path: /etc/loki/promtail.yaml
+  register: promtail_config_stat
+- name: Validate promtail config
+  ansible.builtin.assert:
+    that:
+      - promtail_config_stat.stat.exists
+      - promtail_config_stat.stat.isreg

@@ -12,8 +12,10 @@ gitpython = "*"
 loguru = "*"
 pipenv = "*"
 redis = "*"
+argcomplete = "*"
 
 [dev-packages]
+ansible-dev-tools = "*"
 molecule = "*"
 myst-parser = {extras = ["linkify"], version = "*"}
 pre-commit = "*"
