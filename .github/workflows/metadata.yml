@@ -45,7 +45,7 @@ jobs:
           egress-policy: audit
 
       - name: checkout
-        uses: actions/checkout@09d2acae674a48949e3602304ab46fd20ae0c42f # main
+        uses: actions/checkout@8edcb1bdb4e267140fa742c62e395cd74f332709 # main
         with:
           fetch-depth: 0
       - name: add labels
