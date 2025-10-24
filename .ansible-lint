@@ -28,6 +28,7 @@ mock_modules:
   # note the foo.bar is invalid as being neither a module or a collection
   - fake_namespace.fake_collection.fake_module
   - fake_namespace.fake_collection.fake_module.fake_submodule
+  - community.general.pacman
 mock_roles:
   - mocked_role
   - author.role_name # old standalone galaxy role
