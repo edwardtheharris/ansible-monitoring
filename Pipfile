@@ -12,9 +12,9 @@ gitpython = "*"
 loguru = "*"
 redis = "*"
 pipenv = "*"
+pip = "*"
 
 [dev-packages]
-ansible-dev-tools = "*"
 myst-parser = {extras = ["linkify"], version = "*"}
 pre-commit = "*"
 pytest = "*"
@@ -26,4 +26,3 @@ sphinx-copybutton = "*"
 sphinx-favicon = "*"
 sphinxcontrib-autoyaml = "*"
 sphinxemoji = "*"
-pipenv = "*"
