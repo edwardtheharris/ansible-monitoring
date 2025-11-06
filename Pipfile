@@ -5,18 +5,16 @@ name = "pypi"
 
 [packages]
 ansible = "*"
-ansible-creator = "*"
 ansible-lint = "*"
 ansible-navigator = "*"
+argcomplete = "*"
 gitpython = "*"
 loguru = "*"
-pipenv = "*"
 redis = "*"
-argcomplete = "*"
+pipenv = "*"
+pip = "*"
 
 [dev-packages]
-ansible-dev-tools = "*"
-molecule = "*"
 myst-parser = {extras = ["linkify"], version = "*"}
 pre-commit = "*"
 pytest = "*"
@@ -28,4 +26,3 @@ sphinx-copybutton = "*"
 sphinx-favicon = "*"
 sphinxcontrib-autoyaml = "*"
 sphinxemoji = "*"
-pipenv = "*"
