@@ -23,7 +23,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@main
         with:
-          python-version: 3.11
+          python-version: 3.13
       - name: Install requirements
         run: |
           pip3.11 install pipenv
@@ -44,4 +44,4 @@ jobs:
         # or version tag instead of 'main'
         uses: ansible/ansible-lint@main
         with:
-          setup_python: "true"
+          setup-python: true
