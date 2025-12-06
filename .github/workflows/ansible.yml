@@ -26,10 +26,8 @@ jobs:
           python-version: 3.13
       - name: Install requirements
         run: |
-          pip3.13 install pipenv
-          python3.13 -m pipenv requirements --categories lint > lint
-          python3.13 -m pipenv requirements > reqs
-          pip3.13 install -r lint
+          pip3.13 install -U pip pipenv
+          python3.13 -m pipenv requirements --dev > reqs
           pip3.13 install -r reqs
           ansible-galaxy collection install community.crypto
       - name: Make ansible directory
