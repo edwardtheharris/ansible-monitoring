@@ -66,7 +66,7 @@ jobs:
           egress-policy: audit
 
       - name: assign
-        uses: toshimaru/auto-author-assign@7e15cd70c245ad136377c3fab3479815df10d844 # main
+        uses: toshimaru/auto-author-assign@3beaedf3afd443890f7998cb1ccbee6b03bc7dfa # main
   add-to-project:
     permissions:
       pull-requests: write
