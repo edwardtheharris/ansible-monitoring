@@ -66,9 +66,9 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@71cf2267d89c5cb81562390fa70a37fa40b1305e # main
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # main
       - name: Set up NodeJS
-        uses: actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903 # main
+        uses: actions/setup-node@395ad3262231945c25e8478fd5baf05154b1d79f # main
       - name: Install the checker
         run: npm i -g markdownlint-cli2 markdownlint-cli2-formatter-junit --save-dev
       - name: Lint the Markdown
@@ -102,7 +102,7 @@ jobs:
         with:
           egress-policy: audit
 
-      - uses: actions/checkout@71cf2267d89c5cb81562390fa70a37fa40b1305e # main
+      - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # main
         with:
           fetch-depth: 0
       - uses: actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548 # main
