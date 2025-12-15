@@ -8,12 +8,495 @@ title: Breeze Blocks Ansible Kubernetes Control Plane
 ---
 
 <!--markdownlint-disable-->
-## [unreleased]
+## [0.0.2] - 2025-12-15
+
+### 💼 Other - 0.0.2
 
 
-### 💼 Other - [unreleased]
+- Merge pull request #121 from edwardtheharris/119-release-001
+- Add changelog, cliff
+- Closes #121
+- Merge branch 'main' into 117-bump-step-securityharden-runner-from-2131-to-2132-109
+- Merge pull request #118 from edwardtheharris/117-bump-step-securityharden-runner-from-2131-to-2132-109
+- 117 bump step securityharden runner from 2131 to 2132 109
+- Closes #117
+- Bump pytest from 8.4.2 to 9.0.0
+- Bumps [pytest](https://github.com/pytest-dev/pytest) from 8.4.2 to 9.0.0.
+- - [Release notes](https://github.com/pytest-dev/pytest/releases)
+- - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
+- - [Commits](https://github.com/pytest-dev/pytest/compare/8.4.2...9.0.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: pytest
+-   dependency-version: 9.0.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #123 from edwardtheharris/dependabot/pip/pytest-9.0.0
+- Bump pytest from 8.4.2 to 9.0.0
+- Closes #124
+- Merge pull request #125 from edwardtheharris/124-bump-pytest-from-842-to-900-123
+- 124 bump pytest from 842 to 900 123
+- Closes #124
+- Bump actions/setup-python from 6.0.0 to 6.1.0
+- Bumps [actions/setup-python](https://github.com/actions/setup-python) from 6.0.0 to 6.1.0.
+- - [Release notes](https://github.com/actions/setup-python/releases)
+- - [Commits](https://github.com/actions/setup-python/compare/e797f83bcb11b83ae66e0230d6156d7c80228e7c...83679a892e2d95755f2dac6acb0bfd1e9ac5d548)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/setup-python
+-   dependency-version: 6.1.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #135 from edwardtheharris/dependabot/github_actions/actions/setup-python-6.1.0
+- Bump actions/setup-python from 6.0.0 to 6.1.0
+- Closes #136
+- Drop security md
+- Closes #136
+- Merge pull request #137 from edwardtheharris/136-bump-actionssetup-python-from-600-to-610-135
+- 136 bump actionssetup python from 600 to 610 135
+- Closes #137
+- Bump actions/add-to-project
+- Bumps [actions/add-to-project](https://github.com/actions/add-to-project) from 4fda2e598c349fd1d6770dc6df8b0b61158c3e90 to 32da07cbb30091816ce54192caf97979d0812456.
+- - [Release notes](https://github.com/actions/add-to-project/releases)
+- - [Commits](https://github.com/actions/add-to-project/compare/4fda2e598c349fd1d6770dc6df8b0b61158c3e90...32da07cbb30091816ce54192caf97979d0812456)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/add-to-project
+-   dependency-version: 32da07cbb30091816ce54192caf97979d0812456
+-   dependency-type: direct:production
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump pre-commit from 4.3.0 to 4.5.0
+- Bumps [pre-commit](https://github.com/pre-commit/pre-commit) from 4.3.0 to 4.5.0.
+- - [Release notes](https://github.com/pre-commit/pre-commit/releases)
+- - [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pre-commit/pre-commit/compare/v4.3.0...v4.5.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: pre-commit
+-   dependency-version: 4.5.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #134 from edwardtheharris/dependabot/pip/pre-commit-4.5.0
+- Bump pre-commit from 4.3.0 to 4.5.0
+- Closes #138
+- Merge branch 'main' into 138-bump-pre-commit-from-430-to-450-134
+- Merge pull request #139 from edwardtheharris/138-bump-pre-commit-from-430-to-450-134
+- 138 bump pre commit from 430 to 450 134
+- Closes #138
+- Merge branch '145-bump-actionsadd-to-project-from-4fda2e598c349fd1d6770dc6df8b0b61158c3e90-to-32da07cbb30091816ce54192caf97979d0812456-128' into dependabot/github_actions/actions/add-to-project-32da07cbb30091816ce54192caf97979d0812456
+- Merge pull request #128 from edwardtheharris/dependabot/github_actions/actions/add-to-project-32da07cbb30091816ce54192caf97979d0812456
+- Bump actions/add-to-project from 4fda2e598c349fd1d6770dc6df8b0b61158c3e90 to 32da07cbb30091816ce54192caf97979d0812456
+- Closes #145
+- Merge pull request #146 from edwardtheharris/145-bump-actionsadd-to-project-from-4fda2e598c349fd1d6770dc6df8b0b61158c3e90-to-32da07cbb30091816ce54192caf97979d0812456-128
+- 145 bump actionsadd to project from 4fda2e598c349fd1d6770dc6df8b0b61158c3e90 to 32da07cbb30091816ce54192caf97979d0812456 128
+- Closes #145
+- Bump redis from 7.0.1 to 7.1.0
+- Bumps [redis](https://github.com/redis/redis-py) from 7.0.1 to 7.1.0.
+- - [Release notes](https://github.com/redis/redis-py/releases)
+- - [Changelog](https://github.com/redis/redis-py/blob/master/CHANGES)
+- - [Commits](https://github.com/redis/redis-py/compare/v7.0.1...v7.1.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: redis
+-   dependency-version: 7.1.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #130 from edwardtheharris/dependabot/pip/redis-7.1.0
+- Bump redis from 7.0.1 to 7.1.0
+- Closes #148
+- Merge pull request #149 from edwardtheharris/148-bump-redis-from-701-to-710-130
+- 148 bump redis from 701 to 710 130
+- Closes #148
+- Bump pytest from 9.0.0 to 9.0.1
+- Bumps [pytest](https://github.com/pytest-dev/pytest) from 9.0.0 to 9.0.1.
+- - [Release notes](https://github.com/pytest-dev/pytest/releases)
+- - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
+- - [Commits](https://github.com/pytest-dev/pytest/compare/9.0.0...9.0.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: pytest
+-   dependency-version: 9.0.1
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #131 from edwardtheharris/dependabot/pip/pytest-9.0.1
+- Bump pytest from 9.0.0 to 9.0.1
+- Closes #150
+- Merge pull request #151 from edwardtheharris/150-bump-pytest-from-900-to-901-131
+- 150 bump pytest from 900 to 901 131
+- Closes #150
+- Bump ansible-navigator from 25.9.0 to 25.11.0
+- Bumps [ansible-navigator](https://github.com/ansible/ansible-navigator) from 25.9.0 to 25.11.0.
+- - [Release notes](https://github.com/ansible/ansible-navigator/releases)
+- - [Changelog](https://github.com/ansible/ansible-navigator/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/ansible/ansible-navigator/compare/v25.9.0...v25.11.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: ansible-navigator
+-   dependency-version: 25.11.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #133 from edwardtheharris/dependabot/pip/ansible-navigator-25.11.0
+- Bump ansible-navigator from 25.9.0 to 25.11.0
+- Closes #152
+- Adjust lint workflow
+- Closes #152
+- Bump actions/setup-node from 6.0.0 to 6.1.0
+- Bumps [actions/setup-node](https://github.com/actions/setup-node) from 6.0.0 to 6.1.0.
+- - [Release notes](https://github.com/actions/setup-node/releases)
+- - [Commits](https://github.com/actions/setup-node/compare/2028fbc5c25fe9cf00d9f06a71cc4710d4507903...395ad3262231945c25e8478fd5baf05154b1d79f)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/setup-node
+-   dependency-version: 6.1.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump ansible from 12.2.0 to 13.0.0
+- Bumps [ansible](https://github.com/ansible-community/ansible-build-data) from 12.2.0 to 13.0.0.
+- - [Changelog](https://github.com/ansible-community/ansible-build-data/blob/main/docs/release-process.md)
+- - [Commits](https://github.com/ansible-community/ansible-build-data/compare/12.2.0...13.0.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: ansible
+-   dependency-version: 13.0.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #140 from edwardtheharris/dependabot/pip/ansible-13.0.0
+- Bump ansible from 12.2.0 to 13.0.0
+- Closes #159
+- Merge pull request #160 from edwardtheharris/159-bump-ansible-from-1220-to-1300-140
+- 159 bump ansible from 1220 to 1300 140
+- Closes #159
+- Merge branch '161-bump-actionssetup-node-from-600-to-610-143' into dependabot/github_actions/actions/setup-node-6.1.0
+- Merge pull request #143 from edwardtheharris/dependabot/github_actions/actions/setup-node-6.1.0
+- Bump actions/setup-node from 6.0.0 to 6.1.0
+- Closes #161
+- Merge pull request #162 from edwardtheharris/161-bump-actionssetup-node-from-600-to-610-143
+- 161 bump actionssetup node from 600 to 610 143
+- Closes #161
+- Bump actions/checkout from 6.pre.beta to 6.0.1
+- Bumps [actions/checkout](https://github.com/actions/checkout) from 6.pre.beta to 6.0.1.
+- - [Release notes](https://github.com/actions/checkout/releases)
+- - [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/actions/checkout/compare/71cf2267d89c5cb81562390fa70a37fa40b1305e...8e8c483db84b4bee98b60c0593521ed34d9990e8)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/checkout
+-   dependency-version: 6.0.1
+-   dependency-type: direct:production
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #144 from edwardtheharris/dependabot/github_actions/actions/checkout-6.0.1
+- Bump actions/checkout from 6.pre.beta to 6.0.1
+- Closes #163
+- Merge pull request #164 from edwardtheharris/163-bump-actionscheckout-from-6prebeta-to-601-144
+- 163 bump actionscheckout from 6prebeta to 601 144
+- Closes #163
+- Merge branch 'main' into 152-bump-ansible-navigator-from-2590-to-25110-133
+- Bump urllib3 from 2.5.0 to 2.6.0 in the pip group across 1 directory
+- Bumps the pip group with 1 update in the / directory: [urllib3](https://github.com/urllib3/urllib3).
+- Updates `urllib3` from 2.5.0 to 2.6.0
+- - [Release notes](https://github.com/urllib3/urllib3/releases)
+- - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+- - [Commits](https://github.com/urllib3/urllib3/compare/2.5.0...2.6.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: urllib3
+-   dependency-version: 2.6.0
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '165-bump-actionscheckout-from-6prebeta-to-601-144' into dependabot/pip/pip-a6aa50acab
+- Merge pull request #147 from edwardtheharris/dependabot/pip/pip-a6aa50acab
+- Bump urllib3 from 2.5.0 to 2.6.0 in the pip group across 1 directory
+- Closes #165
+- Merge branch 'main' into 165-bump-actionscheckout-from-6prebeta-to-601-144
+- Merge pull request #166 from edwardtheharris/165-bump-actionscheckout-from-6prebeta-to-601-144
+- 165 bump actionscheckout from 6prebeta to 601 144
+- Closes #165
+- Merge branch 'main' into 152-bump-ansible-navigator-from-2590-to-25110-133
+- Merge pull request #153 from edwardtheharris/152-bump-ansible-navigator-from-2590-to-25110-133
+- 152 bump ansible navigator from 2590 to 25110 133
+- Closes #153
+## [0.0.1] - 2025-11-06
+
+### 💼 Other - 0.0.1
 
 
+- Initial commit
+- Drop old playbooks
+- Closes #7
+- Add workflows
+- Closes #7
+- Adjust pipfile
+- Closes #7
+- Update workflows
+- Closes #7
+- Drop scorecard
+- Closes #7
+- Drop codeql
+- Closes #7
+- Drop ossar
+- Closes #7
+- Update pipfile
+- Closes #7
+- Update build
+- Closes #7
+- Update conf
+- Closes #7
+- Update pages
+- Closes #7
+- Drop old pages
+- Closes #7
+- Add pipenv flag
+- Closes #7
+- Drop design
+- Closes #7
+- Update mds
+- Closes #7
+- Update markdolwnlint
+- Closes #7
+- Update pipfile
+- Closes #7
+- Update conf
+- Closes #7
+- Update conf
+- Closes #7
+- Merge pull request #8 from edwardtheharris/7-clean-up-template
+- 7 clean up template
+- Closes #7
+- Bump actions/checkout
+- Closes #11
+- Bumps [actions/checkout](https://github.com/actions/checkout) from 85e6279cec87321a52edac9c87bce653a07cf6c2 to 09d2acae674a48949e3602304ab46fd20ae0c42f.
+- - [Release notes](https://github.com/actions/checkout/releases)
+- - [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/actions/checkout/compare/85e6279cec87321a52edac9c87bce653a07cf6c2...09d2acae674a48949e3602304ab46fd20ae0c42f)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/checkout
+-   dependency-version: '09d2acae674a48949e3602304ab46fd20ae0c42f'
+-   dependency-type: direct:production
+- ...
+- Dependabot[bot] <support@github.com>
+- Xander Harris <xandertheharris@gmail.com>
+- Merge pull request #9 from edwardtheharris/dependabot/github_actions/actions/checkout-09d2acae674a48949e3602304ab46fd20ae0c42f
+- Bump actions/checkout from 85e6279cec87321a52edac9c87bce653a07cf6c2 to 09d2acae674a48949e3602304ab46fd20ae0c42f
+- Closes #11
+- Add role
+- Closes #10
+- Update site
+- Closes #10
+- Update config for glances
+- Closes #10
+- Update conf
+- Closes #10
+- Add init roles
+- Update readme
+- Closes #10
+- Add promtail
+- Closes #10
+- Merge pull request #12 from edwardtheharris/10-add-init-role
+- Add role
+- Closes #10
+- Add node exporter
+- Closes #13
+- Add install with clean lint
+- Closes #13
+- Merge pull request #14 from edwardtheharris/13-add-prometheus-node-exporter
+- Add node exporter
+- Closes #13
+- Adjust Pipfile
+- Closes #15
+- Update pipfile
+- Closes #15
+- Add configuration for glances role
+- Closes #15
+- Enable and start glances service
+- Closes #15
+- Merge pull request #18 from edwardtheharris/15-complete-glances-install-and-configure
+- 15 complete glances install and configure
+- Closes #154
+- Enable glances virtualenv
+- Closes #19
+- Add handler, fix glances install
+- Merge pull request #20 from edwardtheharris/19-add-virtual-environment-for-glances
+- 19 add virtual environment for glances
+- Closes #19
+- Add promtail install, glances config
+- Closes #16
+- Add template for promtail config
+- Closes #16
+- Add defaults
+- Closes #16
+- Adjust template
+- Closes #16
+- Update vars
+- Closes #16
+- Add defaults
+- Closes #16
+- Add promtail install and config
+- Closes #16
+- Add promtail role
+- Closes #16
+- Fix incorrect template name
+- Closes #16
+- Fix template variable
+- Closes #16
+- Run template when contents differ
+- Closes #16
+- Skip facts output
+- Closes #16
+- Merge pull request #21 from edwardtheharris/16-add-promtail-install-and-configure
+- 16 add promtail install and configure
+- Closes #16
+- Merge branch 'main' into 16-add-promtail-install-and-configure
+- Merge pull request #22 from edwardtheharris/16-add-promtail-install-and-configure
+- 16 add promtail install and configure
+- Closes #16
+- Fix promtail template
+- Closes #23
+- Update ignore file
+- Closes #23
+- Merge pull request #24 from edwardtheharris/23-fix-promtail-template
+- Fix promtail template
+- Closes #23
+- Merge branch 'main' into 23-fix-promtail-template
+- Merge pull request #25 from edwardtheharris/23-fix-promtail-template
+- Update ignore file
+- Closes #23
+- Add ping exporter install
+- Closes #17
+- Insert line for multilib
+- Closes #17
+- Add check for pacman update
+- Closes #17
+- Update template
+- Closes #17
+- Fix template
+- Closes #17
+- Update exporters list
+- Closes #17
+- Merge pull request #26 from edwardtheharris/17-add-ping-exporter
+- 17 add ping exporter
+- Closes #17
+- Xander Harris <xandertheharris@gmail.com>
+- Merge pull request #26 from edwardtheharris/17-add-ping-exporter
+- 17 add ping exporter
+- Closes #17
+- Bump pytest from 8.4.0 to 8.4.1
+- Bumps [pytest](https://github.com/pytest-dev/pytest) from 8.4.0 to 8.4.1.
+- - [Release notes](https://github.com/pytest-dev/pytest/releases)
+- - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
+- - [Commits](https://github.com/pytest-dev/pytest/compare/8.4.0...8.4.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: pytest
+-   dependency-version: 8.4.1
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Xander Harris <xandertheharris@gmail.com>
+- Merge pull request #28 from edwardtheharris/dependabot/pip/pytest-8.4.1
+- Bump pytest from 8.4.0 to 8.4.1
+- Merge branch 'main' of github.com:edwardtheharris/ansible-monitoring
+- Add detail to docs, update readme
+- Closes #29
+- Bump urllib3 from 2.4.0 to 2.5.0 in the pip group
+- Bumps the pip group with 1 update: [urllib3](https://github.com/urllib3/urllib3).
+- Updates `urllib3` from 2.4.0 to 2.5.0
+- - [Release notes](https://github.com/urllib3/urllib3/releases)
+- - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+- - [Commits](https://github.com/urllib3/urllib3/compare/2.4.0...2.5.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: urllib3
+-   dependency-version: 2.5.0
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Xander Harris <xandertheharris@gmail.com>
+- Merge branch 'main' of github.com:edwardtheharris/ansible-monitoring into dependabot/pip/pip-2c7469b053
+- Merge pull request #27 from edwardtheharris/dependabot/pip/pip-2c7469b053
+- Bump urllib3 from 2.4.0 to 2.5.0 in the pip group
+- Merge branch 'main' of github.com:edwardtheharris/ansible-monitoring into 29-fix-the-readme
+- Update for uniformity
+- Closes #29
+- Adjust headings
+- Closes #29
+- Merge pull request #30 from edwardtheharris/29-fix-the-readme
+- 29 fix the readme
+- Closes #29
+- Update services and packages lists
+- Closes #33
+- Bump step-security/harden-runner from 2.12.1 to 2.12.2
+- Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.12.1 to 2.12.2.
+- - [Release notes](https://github.com/step-security/harden-runner/releases)
+- - [Commits](https://github.com/step-security/harden-runner/compare/002fdce3c6a235733a90a27c80493a3241e56863...6c439dc8bdf85cadbbce9ed30d1c7b959517bc49)
+- ---
+- Updated-dependencies:
+- - dependency-name: step-security/harden-runner
+-   dependency-version: 2.12.2
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Xander Harris <xandertheharris@gmail.com>
+- See #33
+- Bump step-security/harden-runner from 2.12.1 to 2.12.2
+- Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.12.1 to 2.12.2.
+- - [Release notes](https://github.com/step-security/harden-runner/releases)
+- - [Commits](https://github.com/step-security/harden-runner/compare/002fdce3c6a235733a90a27c80493a3241e56863...6c439dc8bdf85cadbbce9ed30d1c7b959517bc49)
+- ---
+- Updated-dependencies:
+- - dependency-name: step-security/harden-runner
+-   dependency-version: 2.12.2
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch 'dependabot/github_actions/step-security/harden-runner-2.12.2' of github.com:edwardtheharris/ansible-monitoring into dependabot/github_actions/step-security/harden-runner-2.12.2
+- See #33
+- Merge pull request #31 from edwardtheharris/dependabot/github_actions/step-security/harden-runner-2.12.2
+- Bump step-security/harden-runner from 2.12.1 to 2.12.2
+- See #33
+- Merge branch 'main' of github.com:edwardtheharris/ansible-monitoring into 33-add-process-exporter
+- Closes #33
+- Merge pull request #34 from edwardtheharris/33-add-process-exporter
+- Update services and packages lists
+- Closes #33
+- Add cliff config
+- Closes #35
+- Prep initial release
+- Closes #35
+- Merge pull request #36 from edwardtheharris/35-add-initial-release
+- 35 add initial release
+- Closes #35
+- Add changelog md
+- Closes #35
+- Fix changelog errors
+- Closes #35
+- Merge pull request #37 from edwardtheharris/35-add-initial-release
+- Add changelog md
+- Closes #35
 - Add new exporter
 - Closes #32
 - Merge pull request #38 from edwardtheharris/32-add-systemd-exporter
@@ -497,16 +980,16 @@ title: Breeze Blocks Ansible Kubernetes Control Plane
 - Merge pull request #112 from edwardtheharris/95-bump-starlette-from-0470-to-0472-in-the-pip-group-across-1-directory-94
 - 95 bump starlette from 0470 to 0472 in the pip group across 1 directory 94
 - Closes #95
-- Bump actions/checkout
-- Bumps [actions/checkout](https://github.com/actions/checkout) from ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493 to 71cf2267d89c5cb81562390fa70a37fa40b1305e.
-- - [Release notes](https://github.com/actions/checkout/releases)
-- - [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
-- - [Commits](https://github.com/actions/checkout/compare/ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493...71cf2267d89c5cb81562390fa70a37fa40b1305e)
+- Bump EnricoMi/publish-unit-test-result-action from 2.20.0 to 2.21.0
+- Bumps [EnricoMi/publish-unit-test-result-action](https://github.com/enricomi/publish-unit-test-result-action) from 2.20.0 to 2.21.0.
+- - [Release notes](https://github.com/enricomi/publish-unit-test-result-action/releases)
+- - [Commits](https://github.com/enricomi/publish-unit-test-result-action/compare/3a74b2957438d0b6e2e61d67b05318aa25c9e6c6...34d7c956a59aed1bfebf31df77b8de55db9bbaaf)
 - ---
 - Updated-dependencies:
-- - dependency-name: actions/checkout
--   dependency-version: 71cf2267d89c5cb81562390fa70a37fa40b1305e
+- - dependency-name: EnricoMi/publish-unit-test-result-action
+-   dependency-version: 2.21.0
 -   dependency-type: direct:production
+-   update-type: version-update:semver-minor
 - ...
 - Dependabot[bot] <support@github.com>
 - Bump ansible-navigator from 25.5.0 to 25.9.0
@@ -533,22 +1016,6 @@ title: Breeze Blocks Ansible Kubernetes Control Plane
 - Merge pull request #104 from edwardtheharris/103-bump-ansible-navigator-from-2550-to-2590-99
 - 103 bump ansible navigator from 2550 to 2590 99
 - Closes #103
-- Merge branch '114-bump-actionscheckout-from-ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493-to-71cf2267d89c5cb81562390fa70a37fa40b1305e-108' into dependabot/github_actions/actions/checkout-71cf2267d89c5cb81562390fa70a37fa40b1305e
-- Merge pull request #108 from edwardtheharris/dependabot/github_actions/actions/checkout-71cf2267d89c5cb81562390fa70a37fa40b1305e
-- Bump actions/checkout from ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493 to 71cf2267d89c5cb81562390fa70a37fa40b1305e
-- Closes #114
-- Bump EnricoMi/publish-unit-test-result-action from 2.20.0 to 2.21.0
-- Bumps [EnricoMi/publish-unit-test-result-action](https://github.com/enricomi/publish-unit-test-result-action) from 2.20.0 to 2.21.0.
-- - [Release notes](https://github.com/enricomi/publish-unit-test-result-action/releases)
-- - [Commits](https://github.com/enricomi/publish-unit-test-result-action/compare/3a74b2957438d0b6e2e61d67b05318aa25c9e6c6...34d7c956a59aed1bfebf31df77b8de55db9bbaaf)
-- ---
-- Updated-dependencies:
-- - dependency-name: EnricoMi/publish-unit-test-result-action
--   dependency-version: 2.21.0
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
 - Merge branch '113-bump-enricomipublish-unit-test-result-action-from-2200-to-2210-105' into dependabot/github_actions/EnricoMi/publish-unit-test-result-action-2.21.0
 - Merge pull request #105 from edwardtheharris/dependabot/github_actions/EnricoMi/publish-unit-test-result-action-2.21.0
 - Bump EnricoMi/publish-unit-test-result-action from 2.20.0 to 2.21.0
@@ -556,270 +1023,42 @@ title: Breeze Blocks Ansible Kubernetes Control Plane
 - Merge pull request #115 from edwardtheharris/113-bump-enricomipublish-unit-test-result-action-from-2200-to-2210-105
 - 113 bump enricomipublish unit test result action from 2200 to 2210 105
 - Closes #113
+- Bump step-security/harden-runner from 2.13.1 to 2.13.2
+- Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.13.1 to 2.13.2.
+- - [Release notes](https://github.com/step-security/harden-runner/releases)
+- - [Commits](https://github.com/step-security/harden-runner/compare/f4a75cfd619ee5ce8d5b864b0d183aff3c69b55a...95d9a5deda9de15063e7595e9719c11c38c90ae2)
+- ---
+- Updated-dependencies:
+- - dependency-name: step-security/harden-runner
+-   dependency-version: 2.13.2
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #109 from edwardtheharris/dependabot/github_actions/step-security/harden-runner-2.13.2
+- Bump step-security/harden-runner from 2.13.1 to 2.13.2
+- Closes #117
+- Bump actions/checkout
+- Bumps [actions/checkout](https://github.com/actions/checkout) from ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493 to 71cf2267d89c5cb81562390fa70a37fa40b1305e.
+- - [Release notes](https://github.com/actions/checkout/releases)
+- - [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/actions/checkout/compare/ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493...71cf2267d89c5cb81562390fa70a37fa40b1305e)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/checkout
+-   dependency-version: 71cf2267d89c5cb81562390fa70a37fa40b1305e
+-   dependency-type: direct:production
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '114-bump-actionscheckout-from-ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493-to-71cf2267d89c5cb81562390fa70a37fa40b1305e-108' into dependabot/github_actions/actions/checkout-71cf2267d89c5cb81562390fa70a37fa40b1305e
+- Merge pull request #108 from edwardtheharris/dependabot/github_actions/actions/checkout-71cf2267d89c5cb81562390fa70a37fa40b1305e
+- Bump actions/checkout from ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493 to 71cf2267d89c5cb81562390fa70a37fa40b1305e
+- Closes #114
 - Merge branch 'main' into 114-bump-actionscheckout-from-ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493-to-71cf2267d89c5cb81562390fa70a37fa40b1305e-108
 - Merge pull request #116 from edwardtheharris/114-bump-actionscheckout-from-ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493-to-71cf2267d89c5cb81562390fa70a37fa40b1305e-108
 - 114 bump actionscheckout from ff7abcd0c3c05ccf6adc123a8cd1fd4fb30fb493 to 71cf2267d89c5cb81562390fa70a37fa40b1305e 108
 - Closes #114
-## [0.0.1] - 2025-07-04
-
-### 💼 Other - 0.0.1
-
-
-- Initial commit
-- Drop old playbooks
-- Closes #7
-- Add workflows
-- Closes #7
-- Adjust pipfile
-- Closes #7
-- Update workflows
-- Closes #7
-- Drop scorecard
-- Closes #7
-- Drop codeql
-- Closes #7
-- Drop ossar
-- Closes #7
-- Update pipfile
-- Closes #7
-- Update build
-- Closes #7
-- Update conf
-- Closes #7
-- Update pages
-- Closes #7
-- Drop old pages
-- Closes #7
-- Add pipenv flag
-- Closes #7
-- Drop design
-- Closes #7
-- Update mds
-- Closes #7
-- Update markdolwnlint
-- Closes #7
-- Update pipfile
-- Closes #7
-- Update conf
-- Closes #7
-- Update conf
-- Closes #7
-- Merge pull request #8 from edwardtheharris/7-clean-up-template
-- 7 clean up template
-- Closes #7
-- Bump actions/checkout
-- Closes #11
-- Bumps [actions/checkout](https://github.com/actions/checkout) from 85e6279cec87321a52edac9c87bce653a07cf6c2 to 09d2acae674a48949e3602304ab46fd20ae0c42f.
-- - [Release notes](https://github.com/actions/checkout/releases)
-- - [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
-- - [Commits](https://github.com/actions/checkout/compare/85e6279cec87321a52edac9c87bce653a07cf6c2...09d2acae674a48949e3602304ab46fd20ae0c42f)
-- ---
-- Updated-dependencies:
-- - dependency-name: actions/checkout
--   dependency-version: '09d2acae674a48949e3602304ab46fd20ae0c42f'
--   dependency-type: direct:production
-- ...
-- Dependabot[bot] <support@github.com>
-- Xander Harris <xandertheharris@gmail.com>
-- Merge pull request #9 from edwardtheharris/dependabot/github_actions/actions/checkout-09d2acae674a48949e3602304ab46fd20ae0c42f
-- Bump actions/checkout from 85e6279cec87321a52edac9c87bce653a07cf6c2 to 09d2acae674a48949e3602304ab46fd20ae0c42f
-- Closes #11
-- Add role
-- Closes #10
-- Update site
-- Closes #10
-- Update config for glances
-- Closes #10
-- Update conf
-- Closes #10
-- Add init roles
-- Update readme
-- Closes #10
-- Add promtail
-- Closes #10
-- Merge pull request #12 from edwardtheharris/10-add-init-role
-- Add role
-- Closes #10
-- Add node exporter
-- Closes #13
-- Add install with clean lint
-- Closes #13
-- Merge pull request #14 from edwardtheharris/13-add-prometheus-node-exporter
-- Add node exporter
-- Closes #13
-- Adjust Pipfile
-- Closes #15
-- Update pipfile
-- Closes #15
-- Add configuration for glances role
-- Closes #15
-- Enable and start glances service
-- Closes #15
-- Merge pull request #18 from edwardtheharris/15-complete-glances-install-and-configure
-- 15 complete glances install and configure
-- Closes #154
-- Enable glances virtualenv
-- Closes #19
-- Add handler, fix glances install
-- Merge pull request #20 from edwardtheharris/19-add-virtual-environment-for-glances
-- 19 add virtual environment for glances
-- Closes #19
-- Add promtail install, glances config
-- Closes #16
-- Add template for promtail config
-- Closes #16
-- Add defaults
-- Closes #16
-- Adjust template
-- Closes #16
-- Update vars
-- Closes #16
-- Add defaults
-- Closes #16
-- Add promtail install and config
-- Closes #16
-- Add promtail role
-- Closes #16
-- Fix incorrect template name
-- Closes #16
-- Fix template variable
-- Closes #16
-- Run template when contents differ
-- Closes #16
-- Skip facts output
-- Closes #16
-- Merge pull request #21 from edwardtheharris/16-add-promtail-install-and-configure
-- 16 add promtail install and configure
-- Closes #16
-- Merge branch 'main' into 16-add-promtail-install-and-configure
-- Merge pull request #22 from edwardtheharris/16-add-promtail-install-and-configure
-- 16 add promtail install and configure
-- Closes #16
-- Fix promtail template
-- Closes #23
-- Update ignore file
-- Closes #23
-- Merge pull request #24 from edwardtheharris/23-fix-promtail-template
-- Fix promtail template
-- Closes #23
-- Merge branch 'main' into 23-fix-promtail-template
-- Merge pull request #25 from edwardtheharris/23-fix-promtail-template
-- Update ignore file
-- Closes #23
-- Add ping exporter install
-- Closes #17
-- Insert line for multilib
-- Closes #17
-- Add check for pacman update
-- Closes #17
-- Update template
-- Closes #17
-- Fix template
-- Closes #17
-- Update exporters list
-- Closes #17
-- Merge pull request #26 from edwardtheharris/17-add-ping-exporter
-- 17 add ping exporter
-- Closes #17
-- Xander Harris <xandertheharris@gmail.com>
-- Merge pull request #26 from edwardtheharris/17-add-ping-exporter
-- 17 add ping exporter
-- Closes #17
-- Bump pytest from 8.4.0 to 8.4.1
-- Bumps [pytest](https://github.com/pytest-dev/pytest) from 8.4.0 to 8.4.1.
-- - [Release notes](https://github.com/pytest-dev/pytest/releases)
-- - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
-- - [Commits](https://github.com/pytest-dev/pytest/compare/8.4.0...8.4.1)
-- ---
-- Updated-dependencies:
-- - dependency-name: pytest
--   dependency-version: 8.4.1
--   dependency-type: direct:development
--   update-type: version-update:semver-patch
-- ...
-- Dependabot[bot] <support@github.com>
-- Xander Harris <xandertheharris@gmail.com>
-- Merge pull request #28 from edwardtheharris/dependabot/pip/pytest-8.4.1
-- Bump pytest from 8.4.0 to 8.4.1
-- Merge branch 'main' of github.com:edwardtheharris/ansible-monitoring
-- Add detail to docs, update readme
-- Closes #29
-- Bump urllib3 from 2.4.0 to 2.5.0 in the pip group
-- Bumps the pip group with 1 update: [urllib3](https://github.com/urllib3/urllib3).
-- Updates `urllib3` from 2.4.0 to 2.5.0
-- - [Release notes](https://github.com/urllib3/urllib3/releases)
-- - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
-- - [Commits](https://github.com/urllib3/urllib3/compare/2.4.0...2.5.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: urllib3
--   dependency-version: 2.5.0
--   dependency-type: indirect
--   dependency-group: pip
-- ...
-- Dependabot[bot] <support@github.com>
-- Xander Harris <xandertheharris@gmail.com>
-- Merge branch 'main' of github.com:edwardtheharris/ansible-monitoring into dependabot/pip/pip-2c7469b053
-- Merge pull request #27 from edwardtheharris/dependabot/pip/pip-2c7469b053
-- Bump urllib3 from 2.4.0 to 2.5.0 in the pip group
-- Merge branch 'main' of github.com:edwardtheharris/ansible-monitoring into 29-fix-the-readme
-- Update for uniformity
-- Closes #29
-- Adjust headings
-- Closes #29
-- Merge pull request #30 from edwardtheharris/29-fix-the-readme
-- 29 fix the readme
-- Closes #29
-- Update services and packages lists
-- Closes #33
-- Bump step-security/harden-runner from 2.12.1 to 2.12.2
-- Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.12.1 to 2.12.2.
-- - [Release notes](https://github.com/step-security/harden-runner/releases)
-- - [Commits](https://github.com/step-security/harden-runner/compare/002fdce3c6a235733a90a27c80493a3241e56863...6c439dc8bdf85cadbbce9ed30d1c7b959517bc49)
-- ---
-- Updated-dependencies:
-- - dependency-name: step-security/harden-runner
--   dependency-version: 2.12.2
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
-- ...
-- Dependabot[bot] <support@github.com>
-- Xander Harris <xandertheharris@gmail.com>
-- See #33
-- Bump step-security/harden-runner from 2.12.1 to 2.12.2
-- Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.12.1 to 2.12.2.
-- - [Release notes](https://github.com/step-security/harden-runner/releases)
-- - [Commits](https://github.com/step-security/harden-runner/compare/002fdce3c6a235733a90a27c80493a3241e56863...6c439dc8bdf85cadbbce9ed30d1c7b959517bc49)
-- ---
-- Updated-dependencies:
-- - dependency-name: step-security/harden-runner
--   dependency-version: 2.12.2
--   dependency-type: direct:production
--   update-type: version-update:semver-patch
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge branch 'dependabot/github_actions/step-security/harden-runner-2.12.2' of github.com:edwardtheharris/ansible-monitoring into dependabot/github_actions/step-security/harden-runner-2.12.2
-- See #33
-- Merge pull request #31 from edwardtheharris/dependabot/github_actions/step-security/harden-runner-2.12.2
-- Bump step-security/harden-runner from 2.12.1 to 2.12.2
-- See #33
-- Merge branch 'main' of github.com:edwardtheharris/ansible-monitoring into 33-add-process-exporter
-- Closes #33
-- Merge pull request #34 from edwardtheharris/33-add-process-exporter
-- Update services and packages lists
-- Closes #33
-- Add cliff config
-- Closes #35
-- Prep initial release
-- Closes #35
-- Merge pull request #36 from edwardtheharris/35-add-initial-release
-- 35 add initial release
-- Closes #35
-- Add changelog md
-- Closes #35
-- Fix changelog errors
-- Closes #35
-- Merge pull request #37 from edwardtheharris/35-add-initial-release
-- Add changelog md
-- Closes #35
+- Merge branch 'main' into 117-bump-step-securityharden-runner-from-2131-to-2132-109
+- Add changelog, cliff
+- Closes #119
 <!-- generated by git-cliff -->
