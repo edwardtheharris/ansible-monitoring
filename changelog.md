@@ -8,16 +8,15 @@ title: Breeze Blocks Ansible Kubernetes Control Plane
 ---
 
 <!--markdownlint-disable-->
-## [unreleased]
+## [0.0.3] - 2026-02-12
 
-
-### 🚀 Features - [unreleased]
+### 🚀 Features - 0.0.3
 
 
 - *(Add-commitizen-to-dev-packages)* Update pipenv with commitizen
 
 
-### 💼 Other - [unreleased]
+### 💼 Other - 0.0.3
 
 
 - Merge pull request #167 from edwardtheharris/120-release-002
@@ -361,6 +360,8 @@ title: Breeze Blocks Ansible Kubernetes Control Plane
 - 231 bump actionscheckout from 601 to 602208
 - Closes #231
 - *(Add-commitizen-to-dev-packages)* Update pipenv with commitizen
+- Update changelog
+- Closes #187
 ## [0.0.2] - 2025-12-15
 
 ### 💼 Other - 0.0.2
