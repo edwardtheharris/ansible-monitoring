@@ -12,7 +12,7 @@
   loop_control:
     loop_var: glances_item
 - name: Configure glances
-  ansible.builtin.template:
+  ansible.builtin.copy:
     src: glances.conf
     dest: /etc/glances/glances.conf
     owner: root
