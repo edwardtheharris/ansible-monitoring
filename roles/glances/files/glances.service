@@ -1,8 +1,12 @@
 [Unit]
 Description=Glances Server
+After=network.target
 
 [Service]
-ExecStart=/etc/glances/bin/glances -C /etc/glances/glances.conf --export prometheus
+EnvironmentFile=/etc/conf.d/glances
+ExecStart=/etc/glances/bin/glances --config /etc/glances/glances.conf --export prometheus
+Restart=always
+RemainAfterExit=no
 
 [Install]
 WantedBy=multi-user.target
