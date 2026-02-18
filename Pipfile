@@ -13,6 +13,11 @@ loguru = "*"
 redis = "*"
 pipenv = "*"
 pip = "*"
+commitizen = "*"
+sphinx-autobuild = "*"
+sphinx-favicon = "*"
+sphinx-book-theme = "*"
+myst-parser = {extras = ["linkify"], version = "*"}
 
 [dev-packages]
 myst-parser = {extras = ["linkify"], version = "*"}
@@ -26,3 +31,4 @@ sphinx-copybutton = "*"
 sphinx-favicon = "*"
 sphinxcontrib-autoyaml = "*"
 sphinxemoji = "*"
+commitizen = "*"
