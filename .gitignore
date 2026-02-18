@@ -1,4 +1,5 @@
 *.xcf
+_sphinx/
 *.xml
 .ansible
 .secret/

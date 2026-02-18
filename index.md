@@ -32,7 +32,6 @@ roles/promtail/readme
 readme
 changelog
 license
-security
 ```
 
 ```{index} metadata; repository
