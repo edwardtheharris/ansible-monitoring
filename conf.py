@@ -37,7 +37,7 @@ extensions = [
     "sphinx.ext.extlinks",
     "sphinx.ext.githubpages",
     "sphinx.ext.intersphinx",
-    "sphinxcontrib.autoyaml",
+    #"sphinxcontrib.autoyaml",
 ]
 
 # -- Options for HTML output -------------------------------------------------

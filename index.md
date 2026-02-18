@@ -30,10 +30,8 @@ roles/promtail/readme
 :maxdepth: 1
 
 readme
-.github/index
 changelog
 license
-security
 ```
 
 ```{index} metadata; repository
