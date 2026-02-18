@@ -17,6 +17,7 @@ commitizen = "*"
 sphinx-autobuild = "*"
 myst-parser = {extras = ["linkifiy"], version = "*"}
 sphinx-favicon = "*"
+sphinx-book-theme = "*"
 
 [dev-packages]
 myst-parser = {extras = ["linkify"], version = "*"}
