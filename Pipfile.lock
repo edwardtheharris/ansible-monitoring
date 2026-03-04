@@ -74,12 +74,12 @@
         },
         "ansible-navigator": {
             "hashes": [
-                "sha256:06461425dc23cffb5ae8e052229a67d856b95ab7c04a32c7e0e83771a6d25751",
-                "sha256:32834fda577244156a4078937cca1cf66d13921c0adb39d200c1b4a3f8e1c603"
+                "sha256:35bb1693c8c8ad558b05cf216f27a743e0d34f0284b8c3a6c5274b92a2dd18c5",
+                "sha256:5966f1e3f04045c9839c2643b7bbf6b820b26543654bc52bf0762209fe40fef1"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.10'",
-            "version": "==26.1.2"
+            "version": "==26.1.3"
         },
         "ansible-runner": {
             "hashes": [
