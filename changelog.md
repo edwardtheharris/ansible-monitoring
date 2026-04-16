@@ -14,6 +14,14 @@ title: Breeze Blocks Ansible Kubernetes Control Plane
 ### 💼 Other - [unreleased]
 
 
+- Merge pull request #356 from edwardtheharris/0.0.4
+- Update changelog
+- Closes #355
+## [0.0.4] - 2026-04-16
+
+### 💼 Other - 0.0.4
+
+
 - Merge pull request #242 from edwardtheharris/187-release-003
 - 187 release 003
 - Closes #187
@@ -826,6 +834,8 @@ title: Breeze Blocks Ansible Kubernetes Control Plane
 - Merge pull request #354 from edwardtheharris/353-bump-actionsadd-to-project-from-ee3e3798a70343fff4af3d323dabfb3888e7ac77-to-27022a19346d0433f2b9859dd2b69d38f4277808332
 - 353 bump actionsadd to project from ee3e3798a70343fff4af3d323dabfb3888e7ac77 to 27022a19346d0433f2b9859dd2b69d38f4277808332
 - Closes #353
+- Update changelog
+- Closes #355
 ## [0.0.3] - 2026-02-12
 
 ### 💼 Other - 0.0.3
