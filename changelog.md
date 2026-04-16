@@ -8,17 +8,1087 @@ title: Breeze Blocks Ansible Kubernetes Control Plane
 ---
 
 <!--markdownlint-disable-->
+## [unreleased]
+
+
+### 💼 Other - [unreleased]
+
+
+- Merge pull request #242 from edwardtheharris/187-release-003
+- 187 release 003
+- Closes #187
+- Bump ansible-lint from 25.12.1 to 26.1.1
+- Bumps [ansible-lint](https://github.com/ansible/ansible-lint) from 25.12.1 to 26.1.1.
+- - [Release notes](https://github.com/ansible/ansible-lint/releases)
+- - [Commits](https://github.com/ansible/ansible-lint/compare/v25.12.1...v26.1.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: ansible-lint
+-   dependency-version: 26.1.1
+-   dependency-type: direct:production
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Add universal glances config
+- Closes #241
+- Drop broken changelog
+- Closes #241
+- Merge branch 'main' into 241-handle-glances-updates-gracefully
+- Merge branch '241-handle-glances-updates-gracefully' of
+- Edwardtheharris/ansible-monitoring
+- Into 241-handle-glances-updates-gracefully
+- Closes #241
+- Merge pull request #244 from edwardtheharris/241-handle-glances-updates-gracefully
+- Add universal glances config
+- Closes #241
+- Merge branch 'main' into dependabot/pip/ansible-lint-26.1.1
+- Merge pull request #235 from edwardtheharris/dependabot/pip/ansible-lint-26.1.1
+- Bump ansible-lint from 25.12.1 to 26.1.1
+- Closes #247
+- Bump actions/setup-node from 6.1.0 to 6.2.0
+- Bumps [actions/setup-node](https://github.com/actions/setup-node) from 6.1.0 to 6.2.0.
+- - [Release notes](https://github.com/actions/setup-node/releases)
+- - [Commits](https://github.com/actions/setup-node/compare/395ad3262231945c25e8478fd5baf05154b1d79f...6044e13b5dc448c55e2357c09f80417699197238)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/setup-node
+-   dependency-version: 6.2.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch 'main' into dependabot/github_actions/actions/setup-node-6.2.0
+- Merge pull request #234 from edwardtheharris/dependabot/github_actions/actions/setup-node-6.2.0
+- Bump actions/setup-node from 6.1.0 to 6.2.0
+- Closes #245
+- Merge pull request #246 from edwardtheharris/245-bump-actionssetup-node-from-610-to-620234
+- 245 bump actionssetup node from 610 to 620234
+- Closes #245
+- Merge branch 'main' into 247-bump-ansible-lint-from-25121-to-2611235
+- Bump the pip group across 1 directory with 4 updates
+- Bumps the pip group with 4 updates in the / directory: [pip](https://github.com/pypa/pip), [filelock](https://github.com/tox-dev/py-filelock), [virtualenv](https://github.com/pypa/virtualenv) and [urllib3](https://github.com/urllib3/urllib3).
+- Updates `pip` from 25.3 to 26.0
+- - [Changelog](https://github.com/pypa/pip/blob/main/NEWS.rst)
+- - [Commits](https://github.com/pypa/pip/compare/25.3...26.0)
+- Updates `filelock` from 3.20.1 to 3.20.3
+- - [Release notes](https://github.com/tox-dev/py-filelock/releases)
+- - [Changelog](https://github.com/tox-dev/filelock/blob/main/docs/changelog.rst)
+- - [Commits](https://github.com/tox-dev/py-filelock/compare/3.20.1...3.20.3)
+- Updates `virtualenv` from 20.35.4 to 20.36.1
+- - [Release notes](https://github.com/pypa/virtualenv/releases)
+- - [Changelog](https://github.com/pypa/virtualenv/blob/main/docs/changelog.rst)
+- - [Commits](https://github.com/pypa/virtualenv/compare/20.35.4...20.36.1)
+- Updates `urllib3` from 2.6.2 to 2.6.3
+- - [Release notes](https://github.com/urllib3/urllib3/releases)
+- - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+- - [Commits](https://github.com/urllib3/urllib3/compare/2.6.2...2.6.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: pip
+-   dependency-version: '26.0'
+-   dependency-type: direct:production
+-   dependency-group: pip
+- - dependency-name: filelock
+-   dependency-version: 3.20.3
+-   dependency-type: indirect
+-   dependency-group: pip
+- - dependency-name: virtualenv
+-   dependency-version: 20.36.1
+-   dependency-type: indirect
+-   dependency-group: pip
+- - dependency-name: urllib3
+-   dependency-version: 2.6.3
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump sphinx from 8.2.3 to 9.1.0
+- Bumps [sphinx](https://github.com/sphinx-doc/sphinx) from 8.2.3 to 9.1.0.
+- - [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- - [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES.rst)
+- - [Commits](https://github.com/sphinx-doc/sphinx/compare/v8.2.3...v9.1.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx
+-   dependency-version: 9.1.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '227-bump-actionssetup-node-from-610-to-620206' into dependabot/pip/sphinx-9.1.0
+- Merge pull request #218 from edwardtheharris/dependabot/pip/sphinx-9.1.0
+- Bump sphinx from 8.2.3 to 9.1.0
+- Closes #227
+- Merge branch 'main' into 227-bump-actionssetup-node-from-610-to-620206
+- Merge branch '227-bump-actionssetup-node-from-610-to-620206' into dependabot/pip/pip-cff6a780d1
+- Merge pull request #229 from edwardtheharris/dependabot/pip/pip-cff6a780d1
+- Bump the pip group across 1 directory with 4 updates
+- Closes #227
+- Bump ansible-lint from 25.12.1 to 26.1.1
+- Bumps [ansible-lint](https://github.com/ansible/ansible-lint) from 25.12.1 to 26.1.1.
+- - [Release notes](https://github.com/ansible/ansible-lint/releases)
+- - [Commits](https://github.com/ansible/ansible-lint/compare/v25.12.1...v26.1.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: ansible-lint
+-   dependency-version: 26.1.1
+-   dependency-type: direct:production
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump pip from 25.3 to 26.0
+- Bumps [pip](https://github.com/pypa/pip) from 25.3 to 26.0.
+- - [Changelog](https://github.com/pypa/pip/blob/main/NEWS.rst)
+- - [Commits](https://github.com/pypa/pip/compare/25.3...26.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: pip
+-   dependency-version: '26.0'
+-   dependency-type: direct:production
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump actions/setup-node from 6.1.0 to 6.2.0
+- Bumps [actions/setup-node](https://github.com/actions/setup-node) from 6.1.0 to 6.2.0.
+- - [Release notes](https://github.com/actions/setup-node/releases)
+- - [Commits](https://github.com/actions/setup-node/compare/395ad3262231945c25e8478fd5baf05154b1d79f...6044e13b5dc448c55e2357c09f80417699197238)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/setup-node
+-   dependency-version: 6.2.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump urllib3 from 2.6.0 to 2.6.3 in the pip group across 1 directory
+- Bumps the pip group with 1 update in the / directory: [urllib3](https://github.com/urllib3/urllib3).
+- Updates `urllib3` from 2.6.0 to 2.6.3
+- - [Release notes](https://github.com/urllib3/urllib3/releases)
+- - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+- - [Commits](https://github.com/urllib3/urllib3/compare/2.6.0...2.6.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: urllib3
+-   dependency-version: 2.6.3
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '225-bump-urllib3-from-260-to-263-in-the-pip-group-across-1-directory205' into dependabot/pip/pip-8177a8837a
+- Merge pull request #205 from edwardtheharris/dependabot/pip/pip-8177a8837a
+- Bump urllib3 from 2.6.0 to 2.6.3 in the pip group across 1 directory
+- Closes #225
+- Merge branch '225-bump-urllib3-from-260-to-263-in-the-pip-group-across-1-directory205' into dependabot/github_actions/actions/setup-node-6.2.0
+- Merge pull request #206 from edwardtheharris/dependabot/github_actions/actions/setup-node-6.2.0
+- Bump actions/setup-node from 6.1.0 to 6.2.0
+- Closes #225
+- Merge branch 'main' into 225-bump-urllib3-from-260-to-263-in-the-pip-group-across-1-directory205
+- Merge branch '225-bump-urllib3-from-260-to-263-in-the-pip-group-across-1-directory205' into dependabot/pip/pip-26.0
+- Merge pull request #219 from edwardtheharris/dependabot/pip/pip-26.0
+- Bump pip from 25.3 to 26.0
+- Closes #225
+- Merge branch '225-bump-urllib3-from-260-to-263-in-the-pip-group-across-1-directory205' into dependabot/pip/ansible-lint-26.1.1
+- Merge pull request #220 from edwardtheharris/dependabot/pip/ansible-lint-26.1.1
+- Bump ansible-lint from 25.12.1 to 26.1.1
+- Closes #225
+- Bump ansible from 13.1.0 to 13.3.0
+- Bumps [ansible](https://github.com/ansible-community/ansible-build-data) from 13.1.0 to 13.3.0.
+- - [Changelog](https://github.com/ansible-community/ansible-build-data/blob/main/docs/release-process.md)
+- - [Commits](https://github.com/ansible-community/ansible-build-data/compare/13.1.0...13.3.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: ansible
+-   dependency-version: 13.3.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '249-bump-ansible-from-1310-to-1330236' into dependabot/pip/ansible-13.3.0
+- Merge pull request #236 from edwardtheharris/dependabot/pip/ansible-13.3.0
+- Bump ansible from 13.1.0 to 13.3.0
+- Closes #249
+- Merge pull request #250 from edwardtheharris/249-bump-ansible-from-1310-to-1330236
+- 249 bump ansible from 1310 to 1330236
+- Closes #249
+- Bump myst-parser from 4.0.1 to 5.0.0
+- Bumps [myst-parser](https://github.com/executablebooks/MyST-Parser) from 4.0.1 to 5.0.0.
+- - [Release notes](https://github.com/executablebooks/MyST-Parser/releases)
+- - [Changelog](https://github.com/executablebooks/MyST-Parser/blob/master/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/MyST-Parser/compare/v4.0.1...v5.0.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: myst-parser
+-   dependency-version: 5.0.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #237 from edwardtheharris/dependabot/pip/myst-parser-5.0.0
+- Bump myst-parser from 4.0.1 to 5.0.0
+- Close #253
+- Merge pull request #254 from edwardtheharris/253-bump-myst-parser-from-401-to-500237
+- 253 bump myst parser from 401 to 500237\
+- Closes #253
+- Bump ansible-navigator from 25.12.0 to 26.1.2
+- Bumps [ansible-navigator](https://github.com/ansible/ansible-navigator) from 25.12.0 to 26.1.2.
+- - [Release notes](https://github.com/ansible/ansible-navigator/releases)
+- - [Changelog](https://github.com/ansible/ansible-navigator/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/ansible/ansible-navigator/compare/v25.12.0...v26.1.2)
+- ---
+- Updated-dependencies:
+- - dependency-name: ansible-navigator
+-   dependency-version: 26.1.2
+-   dependency-type: direct:production
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #238 from edwardtheharris/dependabot/pip/ansible-navigator-26.1.2
+- Bump ansible-navigator from 25.12.0 to 26.1.2
+- Closes #256
+- Fix lock
+- Closes #256
+- Adjust pipfile, lock
+- Closes #256
+- Merge pull request #257 from edwardtheharris/256-bump-myst-parser-from-401-to-500237
+- 256 bump myst parser from 401 to 500237
+- Closes #256
+- Merge branch 'main' of
+- Edwardtheharris/ansible-monitoring
+- Into 225-bump-urllib3-from-260-to-263-in-the-pip-group-across-1-directory205
+- Closes #225
+- Update Pipfile, lock
+- Closes #225
+- Merge pull request #226 from edwardtheharris/225-bump-urllib3-from-260-to-263-in-the-pip-group-across-1-directory205
+- 225 bump urllib3 from 260 to 263 in the pip group across 1 directory205
+- Closes #225
+- Merge branch 'main' of
+- Edwardtheharris/ansible-monitoring
+- Into 227-bump-actionssetup-node-from-610-to-620206
+- Closes #227
+- Merge pull request #233 from edwardtheharris/227-bump-actionssetup-node-from-610-to-620206
+- 227 bump actionssetup node from 610 to 620206
+- Closes #227
+- Merge branch '227-bump-actionssetup-node-from-610-to-620206' of
+- Edwardtheharris/ansible-monitoring into
+- 247-bump-ansible-lint-from-25121-to-2611235
+- Closes #247
+- Fix lock file
+- Closes #247
+- Merge pull request #258 from edwardtheharris/247-bump-ansible-lint-from-25121-to-2611235
+- 247 bump ansible lint from 25121 to 2611235
+- Closes #247
+- Merge pull request #248 from edwardtheharris/247-bump-ansible-lint-from-25121-to-2611235
+- 247 bump ansible lint from 25121 to 2611235
+- Closes #247
+- Merge branch 'main' into 227-bump-actionssetup-node-from-610-to-620206
+- Merge pull request #259 from edwardtheharris/227-bump-actionssetup-node-from-610-to-620206
+- Merge pull request #258 from edwardtheharris/247-bump-ansible-lint-fr…
+- Closes #227
+- Bump EnricoMi/publish-unit-test-result-action from 2.22.0 to 2.23.0
+- Bumps [EnricoMi/publish-unit-test-result-action](https://github.com/enricomi/publish-unit-test-result-action) from 2.22.0 to 2.23.0.
+- - [Release notes](https://github.com/enricomi/publish-unit-test-result-action/releases)
+- - [Commits](https://github.com/enricomi/publish-unit-test-result-action/compare/27d65e188ec43221b20d26de30f4892fad91df2f...c950f6fb443cb5af20a377fd0dfaa78838901040)
+- ---
+- Updated-dependencies:
+- - dependency-name: EnricoMi/publish-unit-test-result-action
+-   dependency-version: 2.23.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #260 from edwardtheharris/dependabot/github_actions/EnricoMi/publish-unit-test-result-action-2.23.0
+- Bump EnricoMi/publish-unit-test-result-action from 2.22.0 to 2.23.0
+- Closes #261
+- Merge pull request #262 from edwardtheharris/261-bump-enricomipublish-unit-test-result-action-from-2220-to-2230260
+- 261 bump enricomipublish unit test result action from 2220 to 2230260
+- Closes #261
+- Bump actions/download-artifact from 7.0.0 to 8.0.0
+- Bumps [actions/download-artifact](https://github.com/actions/download-artifact) from 7.0.0 to 8.0.0.
+- - [Release notes](https://github.com/actions/download-artifact/releases)
+- - [Commits](https://github.com/actions/download-artifact/compare/37930b1c2abaa49bbe596cd826c3c89aef350131...70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/download-artifact
+-   dependency-version: 8.0.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump step-security/harden-runner from 2.14.2 to 2.15.0
+- Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.14.2 to 2.15.0.
+- - [Release notes](https://github.com/step-security/harden-runner/releases)
+- - [Commits](https://github.com/step-security/harden-runner/compare/5ef0c079ce82195b2a36a210272d6b661572d83e...a90bcbc6539c36a85cdfeb73f7e2f433735f215b)
+- ---
+- Updated-dependencies:
+- - dependency-name: step-security/harden-runner
+-   dependency-version: 2.15.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #263 from edwardtheharris/dependabot/github_actions/step-security/harden-runner-2.15.0
+- Bump step-security/harden-runner from 2.14.2 to 2.15.0
+- Closes #265
+- Merge branch '265-bump-step-securityharden-runner-from-2142-to-2150263' into dependabot/github_actions/actions/download-artifact-8.0.0
+- Merge pull request #264 from edwardtheharris/dependabot/github_actions/actions/download-artifact-8.0.0
+- Bump actions/download-artifact from 7.0.0 to 8.0.0
+- Closes #267
+- Merge pull request #266 from edwardtheharris/265-bump-step-securityharden-runner-from-2142-to-2150263
+- 265 bump step securityharden runner from 2142 to 2150263
+- Closes #265
+- Merge branch 'main' into 267-bump-actionsdownload-artifact-from-700-to-800264
+- Merge pull request #268 from edwardtheharris/267-bump-actionsdownload-artifact-from-700-to-800264
+- 267 bump actionsdownload artifact from 700 to 800264
+- Closes #267
+- Bump ansible-navigator from 26.1.2 to 26.1.3
+- Bumps [ansible-navigator](https://github.com/ansible/ansible-navigator) from 26.1.2 to 26.1.3.
+- - [Release notes](https://github.com/ansible/ansible-navigator/releases)
+- - [Changelog](https://github.com/ansible/ansible-navigator/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/ansible/ansible-navigator/compare/v26.1.2...v26.1.3)
+- ---
+- Updated-dependencies:
+- - dependency-name: ansible-navigator
+-   dependency-version: 26.1.3
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #270 from edwardtheharris/dependabot/pip/ansible-navigator-26.1.3
+- Bump ansible-navigator from 26.1.2 to 26.1.3
+- Closes #277
+- Bump actions/setup-node from 6.2.0 to 6.3.0
+- Bumps [actions/setup-node](https://github.com/actions/setup-node) from 6.2.0 to 6.3.0.
+- - [Release notes](https://github.com/actions/setup-node/releases)
+- - [Commits](https://github.com/actions/setup-node/compare/6044e13b5dc448c55e2357c09f80417699197238...53b83947a5a98c8d113130e565377fae1a50d02f)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/setup-node
+-   dependency-version: 6.3.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump commitizen from 4.13.8 to 4.13.9
+- Bumps [commitizen](https://github.com/commitizen-tools/commitizen) from 4.13.8 to 4.13.9.
+- - [Release notes](https://github.com/commitizen-tools/commitizen/releases)
+- - [Changelog](https://github.com/commitizen-tools/commitizen/blob/master/CHANGELOG.md)
+- - [Commits](https://github.com/commitizen-tools/commitizen/compare/v4.13.8...v4.13.9)
+- ---
+- Updated-dependencies:
+- - dependency-name: commitizen
+-   dependency-version: 4.13.9
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump ansible from 13.3.0 to 13.4.0
+- Bumps [ansible](https://github.com/ansible-community/ansible-build-data) from 13.3.0 to 13.4.0.
+- - [Changelog](https://github.com/ansible-community/ansible-build-data/blob/main/docs/release-process.md)
+- - [Commits](https://github.com/ansible-community/ansible-build-data/compare/13.3.0...13.4.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: ansible
+-   dependency-version: 13.4.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #269 from edwardtheharris/dependabot/pip/ansible-13.4.0
+- Bump ansible from 13.3.0 to 13.4.0
+- Closes #269
+- Merge pull request #276 from edwardtheharris/275-bump-ansible-from-1330-to-1340269
+- 275 bump ansible from 1330 to 1340269
+- Closes #275
+- Merge branch 'main' into dependabot/pip/commitizen-4.13.9
+- Merge pull request #272 from edwardtheharris/dependabot/pip/commitizen-4.13.9
+- Bump commitizen from 4.13.8 to 4.13.9
+- Closes #281
+- Bump ansible-lint from 26.1.1 to 26.2.0
+- Bumps [ansible-lint](https://github.com/ansible/ansible-lint) from 26.1.1 to 26.2.0.
+- - [Release notes](https://github.com/ansible/ansible-lint/releases)
+- - [Commits](https://github.com/ansible/ansible-lint/compare/v26.1.1...v26.2.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: ansible-lint
+-   dependency-version: 26.2.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '279-bump-ansible-lint-from-2611-to-2620271' into dependabot/pip/ansible-lint-26.2.0
+- Merge pull request #271 from edwardtheharris/dependabot/pip/ansible-lint-26.2.0
+- Bump ansible-lint from 26.1.1 to 26.2.0
+- Closes #279
+- Merge pull request #280 from edwardtheharris/279-bump-ansible-lint-from-2611-to-2620271
+- 279 bump ansible lint from 2611 to 2620271
+- Closes #27
+- Merge branch 'main' into 281-bump-commitizen-from-4138-to-4139272
+- Merge pull request #282 from edwardtheharris/281-bump-commitizen-from-4138-to-4139272
+- 281 bump commitizen from 4138 to 4139272
+- Closes #281
+- Merge branch 'main' into dependabot/github_actions/actions/setup-node-6.3.0
+- Bump redis from 7.2.0 to 7.2.1
+- Bumps [redis](https://github.com/redis/redis-py) from 7.2.0 to 7.2.1.
+- - [Release notes](https://github.com/redis/redis-py/releases)
+- - [Changelog](https://github.com/redis/redis-py/blob/master/CHANGES)
+- - [Commits](https://github.com/redis/redis-py/compare/v7.2.0...v7.2.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: redis
+-   dependency-version: 7.2.1
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '283-bump-redis-from-720-to-721273' into dependabot/pip/redis-7.2.1
+- Merge pull request #273 from edwardtheharris/dependabot/pip/redis-7.2.1
+- Bump redis from 7.2.0 to 7.2.1
+- Closes #283
+- Merge branch 'main' into 283-bump-redis-from-720-to-721273
+- Merge branch '283-bump-redis-from-720-to-721273' into dependabot/github_actions/actions/setup-node-6.3.0
+- Merge pull request #284 from edwardtheharris/283-bump-redis-from-720-to-721273
+- 283 bump redis from 720 to 721273
+- Closes #283
+- Merge branch '285-bump-actionssetup-node-from-620-to-630274' into dependabot/github_actions/actions/setup-node-6.3.0
+- Merge pull request #274 from edwardtheharris/dependabot/github_actions/actions/setup-node-6.3.0
+- Bump actions/setup-node from 6.2.0 to 6.3.0
+- Closes #285
+- Merge pull request #286 from edwardtheharris/285-bump-actionssetup-node-from-620-to-630274
+- 285 bump actionssetup node from 620 to 630274
+- Closes #285
+- Merge branch 'main' into 277-bump-ansible-navigator-from-2612-to-2613270
+- Merge pull request #278 from edwardtheharris/277-bump-ansible-navigator-from-2612-to-2613270
+- 277 bump ansible navigator from 2612 to 2613270
+- Closes #277
+- Bump ansible-lint from 26.2.0 to 26.3.0
+- Bumps [ansible-lint](https://github.com/ansible/ansible-lint) from 26.2.0 to 26.3.0.
+- - [Release notes](https://github.com/ansible/ansible-lint/releases)
+- - [Commits](https://github.com/ansible/ansible-lint/compare/v26.2.0...v26.3.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: ansible-lint
+-   dependency-version: 26.3.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump commitizen from 4.13.8 to 4.13.9
+- Bumps [commitizen](https://github.com/commitizen-tools/commitizen) from 4.13.8 to 4.13.9.
+- - [Release notes](https://github.com/commitizen-tools/commitizen/releases)
+- - [Changelog](https://github.com/commitizen-tools/commitizen/blob/master/CHANGELOG.md)
+- - [Commits](https://github.com/commitizen-tools/commitizen/compare/v4.13.8...v4.13.9)
+- ---
+- Updated-dependencies:
+- - dependency-name: commitizen
+-   dependency-version: 4.13.9
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump step-security/harden-runner from 2.15.0 to 2.15.1
+- Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.15.0 to 2.15.1.
+- - [Release notes](https://github.com/step-security/harden-runner/releases)
+- - [Commits](https://github.com/step-security/harden-runner/compare/a90bcbc6539c36a85cdfeb73f7e2f433735f215b...58077d3c7e43986b6b15fba718e8ea69e387dfcc)
+- ---
+- Updated-dependencies:
+- - dependency-name: step-security/harden-runner
+-   dependency-version: 2.15.1
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #287 from edwardtheharris/dependabot/github_actions/step-security/harden-runner-2.15.1
+- Bump step-security/harden-runner from 2.15.0 to 2.15.1
+- Clkoses #294
+- Merge pull request #295 from edwardtheharris/294-bump-step-securityharden-runner-from-2150-to-2151287
+- 294 bump step securityharden runner from 2150 to 2151287
+- Closes #294
+- Merge branch '296-bump-commitizen-from-4138-to-4139288' into dependabot/pip/commitizen-4.13.9
+- Merge pull request #288 from edwardtheharris/dependabot/pip/commitizen-4.13.9
+- Bump commitizen from 4.13.8 to 4.13.9
+- Closes #296
+- Merge pull request #297 from edwardtheharris/296-bump-commitizen-from-4138-to-4139288
+- 296 bump commitizen from 4138 to 4139288
+- Closes #296
+- Merge branch '298-bump-ansible-lint-from-2620-to-2630289' into dependabot/pip/ansible-lint-26.3.0
+- Merge pull request #289 from edwardtheharris/dependabot/pip/ansible-lint-26.3.0
+- Bump ansible-lint from 26.2.0 to 26.3.0
+- Closes #298
+- Merge pull request #299 from edwardtheharris/298-bump-ansible-lint-from-2620-to-2630289
+- 298 bump ansible lint from 2620 to 2630289
+- Closes #298
+- Bump redis from 7.2.1 to 7.3.0
+- Bumps [redis](https://github.com/redis/redis-py) from 7.2.1 to 7.3.0.
+- - [Release notes](https://github.com/redis/redis-py/releases)
+- - [Changelog](https://github.com/redis/redis-py/blob/master/CHANGES)
+- - [Commits](https://github.com/redis/redis-py/compare/v7.2.1...v7.3.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: redis
+-   dependency-version: 7.3.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #290 from edwardtheharris/dependabot/pip/redis-7.3.0
+- Bump redis from 7.2.1 to 7.3.0
+- Closes #304
+- Merge pull request #305 from edwardtheharris/304-bump-redis-from-721-to-730290
+- 304 bump redis from 721 to 730290
+- Closes #304
+- Bump sphinx-book-theme from 1.1.4 to 1.2.0
+- Bumps [sphinx-book-theme](https://github.com/executablebooks/sphinx-book-theme) from 1.1.4 to 1.2.0.
+- - [Release notes](https://github.com/executablebooks/sphinx-book-theme/releases)
+- - [Changelog](https://github.com/executablebooks/sphinx-book-theme/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/executablebooks/sphinx-book-theme/compare/v1.1.4...v1.2.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: sphinx-book-theme
+-   dependency-version: 1.2.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump toshimaru/auto-author-assign
+- Bumps [toshimaru/auto-author-assign](https://github.com/toshimaru/auto-author-assign) from 0dacdc5221a765732d16834dc6e902cf1562b182 to 52939d5d7e273559b3c7b3e04eb46efca3829820.
+- - [Release notes](https://github.com/toshimaru/auto-author-assign/releases)
+- - [Changelog](https://github.com/toshimaru/auto-author-assign/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/toshimaru/auto-author-assign/compare/0dacdc5221a765732d16834dc6e902cf1562b182...52939d5d7e273559b3c7b3e04eb46efca3829820)
+- ---
+- Updated-dependencies:
+- - dependency-name: toshimaru/auto-author-assign
+-   dependency-version: 52939d5d7e273559b3c7b3e04eb46efca3829820
+-   dependency-type: direct:production
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '306-bump-toshimaruauto-author-assign-from-0dacdc5221a765732d16834dc6e902cf1562b182-to-52939d5d7e273559b3c7b3e04eb46efca3829820291' into dependabot/github_actions/toshimaru/auto-author-assign-52939d5d7e273559b3c7b3e04eb46efca3829820
+- Merge pull request #291 from edwardtheharris/dependabot/github_actions/toshimaru/auto-author-assign-52939d5d7e273559b3c7b3e04eb46efca3829820
+- Bump toshimaru/auto-author-assign from 0dacdc5221a765732d16834dc6e902cf1562b182 to 52939d5d7e273559b3c7b3e04eb46efca3829820
+- Closes #306
+- Merge pull request #307 from edwardtheharris/306-bump-toshimaruauto-author-assign-from-0dacdc5221a765732d16834dc6e902cf1562b182-to-52939d5d7e273559b3c7b3e04eb46efca3829820291
+- 306 bump toshimaruauto author assign from 0dacdc5221a765732d16834dc6e902cf1562b182 to 52939d5d7e273559b3c7b3e04eb46efca3829820291
+- Closes #306
+- Bump actions/add-to-project
+- Bumps [actions/add-to-project](https://github.com/actions/add-to-project) from 158aad9ed186a4842abf69d0f8071a0ff95312d0 to ee3e3798a70343fff4af3d323dabfb3888e7ac77.
+- - [Release notes](https://github.com/actions/add-to-project/releases)
+- - [Commits](https://github.com/actions/add-to-project/compare/158aad9ed186a4842abf69d0f8071a0ff95312d0...ee3e3798a70343fff4af3d323dabfb3888e7ac77)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/add-to-project
+-   dependency-version: ee3e3798a70343fff4af3d323dabfb3888e7ac77
+-   dependency-type: direct:production
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #300 from edwardtheharris/dependabot/github_actions/actions/add-to-project-ee3e3798a70343fff4af3d323dabfb3888e7ac77
+- Bump actions/add-to-project from 158aad9ed186a4842abf69d0f8071a0ff95312d0 to ee3e3798a70343fff4af3d323dabfb3888e7ac77
+- Closes #312
+- Bump actions/download-artifact from 8.0.0 to 8.0.1
+- Bumps [actions/download-artifact](https://github.com/actions/download-artifact) from 8.0.0 to 8.0.1.
+- - [Release notes](https://github.com/actions/download-artifact/releases)
+- - [Commits](https://github.com/actions/download-artifact/compare/70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3...3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/download-artifact
+-   dependency-version: 8.0.1
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #293 from edwardtheharris/dependabot/github_actions/actions/download-artifact-8.0.1
+- Bump actions/download-artifact from 8.0.0 to 8.0.1
+- Closes #310
+- Merge pull request #311 from edwardtheharris/310-bump-actionsdownload-artifact-from-800-to-801293
+- 310 bump actionsdownload artifact from 800 to 801293
+- Closes #310
+- Merge branch 'main' into 312-bump-actionsadd-to-project-from-158aad9ed186a4842abf69d0f8071a0ff95312d0-to-ee3e3798a70343fff4af3d323dabfb3888e7ac77300
+- Merge pull request #313 from edwardtheharris/312-bump-actionsadd-to-project-from-158aad9ed186a4842abf69d0f8071a0ff95312d0-to-ee3e3798a70343fff4af3d323dabfb3888e7ac77300
+- 312 bump actionsadd to project from 158aad9ed186a4842abf69d0f8071a0ff95312d0 to ee3e3798a70343fff4af3d323dabfb3888e7ac77300
+- Closes #312
+- Merge branch '315-bump-sphinx-book-theme-from-114-to-120302' into dependabot/pip/sphinx-book-theme-1.2.0
+- Merge pull request #302 from edwardtheharris/dependabot/pip/sphinx-book-theme-1.2.0
+- Bump sphinx-book-theme from 1.1.4 to 1.2.0
+- Closes #315
+- Update deps
+- Closes #315
+- Fix old Python
+- Closes #315
+- Merge pull request #316 from edwardtheharris/315-bump-sphinx-book-theme-from-114-to-120302
+- 315 bump sphinx book theme from 114 to 120302
+- Closes #315
+- Bump step-security/harden-runner from 2.15.1 to 2.16.0
+- Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.15.1 to 2.16.0.
+- - [Release notes](https://github.com/step-security/harden-runner/releases)
+- - [Commits](https://github.com/step-security/harden-runner/compare/58077d3c7e43986b6b15fba718e8ea69e387dfcc...fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594)
+- ---
+- Updated-dependencies:
+- - dependency-name: step-security/harden-runner
+-   dependency-version: 2.16.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump black from 26.1.0 to 26.3.1 in the pip group across 1 directory
+- Bumps the pip group with 1 update in the / directory: [black](https://github.com/psf/black).
+- Updates `black` from 26.1.0 to 26.3.1
+- - [Release notes](https://github.com/psf/black/releases)
+- - [Changelog](https://github.com/psf/black/blob/main/CHANGES.md)
+- - [Commits](https://github.com/psf/black/compare/26.1.0...26.3.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: black
+-   dependency-version: 26.3.1
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '308-bump-black-from-2610-to-2631-in-the-pip-group-across-1-directory292' into dependabot/pip/pip-b7f5c28099
+- Merge pull request #292 from edwardtheharris/dependabot/pip/pip-b7f5c28099
+- Bump black from 26.1.0 to 26.3.1 in the pip group across 1 directory
+- Closes #308
+- Merge branch '308-bump-black-from-2610-to-2631-in-the-pip-group-across-1-directory292' into dependabot/github_actions/step-security/harden-runner-2.16.0
+- Merge pull request #309 from edwardtheharris/dependabot/github_actions/step-security/harden-runner-2.16.0
+- Bump step-security/harden-runner from 2.15.1 to 2.16.0
+- Closes #308
+- Bump commitizen from 4.13.8 to 4.13.9
+- Bumps [commitizen](https://github.com/commitizen-tools/commitizen) from 4.13.8 to 4.13.9.
+- - [Release notes](https://github.com/commitizen-tools/commitizen/releases)
+- - [Changelog](https://github.com/commitizen-tools/commitizen/blob/master/CHANGELOG.md)
+- - [Commits](https://github.com/commitizen-tools/commitizen/compare/v4.13.8...v4.13.9)
+- ---
+- Updated-dependencies:
+- - dependency-name: commitizen
+-   dependency-version: 4.13.9
+-   dependency-type: direct:production
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '314-bump-commitizen-from-4138-to-4139301' into dependabot/pip/commitizen-4.13.9
+- Merge pull request #301 from edwardtheharris/dependabot/pip/commitizen-4.13.9
+- Bump commitizen from 4.13.8 to 4.13.9
+- Closes #314
+- Merge branch 'main' into 314-bump-commitizen-from-4138-to-4139301
+- Merge pull request #317 from edwardtheharris/314-bump-commitizen-from-4138-to-4139301
+- 314 bump commitizen from 4138 to 4139301
+- Closes #314
+- Merge branch 'main' into 308-bump-black-from-2610-to-2631-in-the-pip-group-across-1-directory292
+- Merge pull request #318 from edwardtheharris/308-bump-black-from-2610-to-2631-in-the-pip-group-across-1-directory292
+- 308 bump black from 2610 to 2631 in the pip group across 1 directory292
+- Closes #308
+- Bump toshimaru/auto-author-assign
+- Bumps [toshimaru/auto-author-assign](https://github.com/toshimaru/auto-author-assign) from 52939d5d7e273559b3c7b3e04eb46efca3829820 to 40b645548e95cef9fed45bba6f49491d28a6fe9b.
+- - [Release notes](https://github.com/toshimaru/auto-author-assign/releases)
+- - [Changelog](https://github.com/toshimaru/auto-author-assign/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/toshimaru/auto-author-assign/compare/52939d5d7e273559b3c7b3e04eb46efca3829820...40b645548e95cef9fed45bba6f49491d28a6fe9b)
+- ---
+- Updated-dependencies:
+- - dependency-name: toshimaru/auto-author-assign
+-   dependency-version: 40b645548e95cef9fed45bba6f49491d28a6fe9b
+-   dependency-type: direct:production
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #320 from edwardtheharris/dependabot/github_actions/toshimaru/auto-author-assign-40b645548e95cef9fed45bba6f49491d28a6fe9b
+- Bump toshimaru/auto-author-assign from 52939d5d7e273559b3c7b3e04eb46efca3829820 to 40b645548e95cef9fed45bba6f49491d28a6fe9b
+- Closes #327
+- Bump pytest-cov from 7.0.0 to 7.1.0
+- Bumps [pytest-cov](https://github.com/pytest-dev/pytest-cov) from 7.0.0 to 7.1.0.
+- - [Changelog](https://github.com/pytest-dev/pytest-cov/blob/master/CHANGELOG.rst)
+- - [Commits](https://github.com/pytest-dev/pytest-cov/compare/v7.0.0...v7.1.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: pytest-cov
+-   dependency-version: 7.1.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #319 from edwardtheharris/dependabot/pip/pytest-cov-7.1.0
+- Bump pytest-cov from 7.0.0 to 7.1.0
+- Closes #325
+- Merge pull request #326 from edwardtheharris/325-bump-pytest-cov-from-700-to-710319
+- 325 bump pytest cov from 700 to 710319
+- Closes #325
+- Merge branch 'main' into 327-bump-toshimaruauto-author-assign-from-52939d5d7e273559b3c7b3e04eb46efca3829820-to-40b645548e95cef9fed45bba6f49491d28a6fe9b320
+- Merge pull request #328 from edwardtheharris/327-bump-toshimaruauto-author-assign-from-52939d5d7e273559b3c7b3e04eb46efca3829820-to-40b645548e95cef9fed45bba6f49491d28a6fe9b320
+- 327 bump toshimaruauto author assign from 52939d5d7e273559b3c7b3e04eb46efca3829820 to 40b645548e95cef9fed45bba6f49491d28a6fe9b320
+- Closes #327
+- Bump actions/configure-pages
+- Bumps [actions/configure-pages](https://github.com/actions/configure-pages) from d5606572c479bee637007364c6b4800ac4fc8573 to 45bfe0192ca1faeb007ade9deae92b16b8254a0d.
+- - [Release notes](https://github.com/actions/configure-pages/releases)
+- - [Commits](https://github.com/actions/configure-pages/compare/d5606572c479bee637007364c6b4800ac4fc8573...45bfe0192ca1faeb007ade9deae92b16b8254a0d)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/configure-pages
+-   dependency-version: 45bfe0192ca1faeb007ade9deae92b16b8254a0d
+-   dependency-type: direct:production
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #321 from edwardtheharris/dependabot/github_actions/actions/configure-pages-45bfe0192ca1faeb007ade9deae92b16b8254a0d
+- Bump actions/configure-pages from d5606572c479bee637007364c6b4800ac4fc8573 to 45bfe0192ca1faeb007ade9deae92b16b8254a0d
+- Closes #334
+- Merge pull request #335 from edwardtheharris/334-bump-actionsconfigure-pages-from-d5606572c479bee637007364c6b4800ac4fc8573-to-45bfe0192ca1faeb007ade9deae92b16b8254a0d321
+- 334 bump actionsconfigure pages from d5606572c479bee637007364c6b4800ac4fc8573 to 45bfe0192ca1faeb007ade9deae92b16b8254a0d321
+- Closes #334
+- Bump actions/deploy-pages from 4.0.5 to 5.0.0
+- Bumps [actions/deploy-pages](https://github.com/actions/deploy-pages) from 4.0.5 to 5.0.0.
+- - [Release notes](https://github.com/actions/deploy-pages/releases)
+- - [Commits](https://github.com/actions/deploy-pages/compare/d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e...cd2ce8fcbc39b97be8ca5fce6e763baed58fa128)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/deploy-pages
+-   dependency-version: 5.0.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #323 from edwardtheharris/dependabot/github_actions/actions/deploy-pages-5.0.0
+- Bump actions/deploy-pages from 4.0.5 to 5.0.0
+- Closes #336
+- Merge pull request #337 from edwardtheharris/336-bump-actionsdeploy-pages-from-405-to-500323
+- 336 bump actionsdeploy pages from 405 to 500323
+- Closes #336
+- Bump actions/add-to-project
+- Bumps [actions/add-to-project](https://github.com/actions/add-to-project) from ee3e3798a70343fff4af3d323dabfb3888e7ac77 to 27022a19346d0433f2b9859dd2b69d38f4277808.
+- - [Release notes](https://github.com/actions/add-to-project/releases)
+- - [Commits](https://github.com/actions/add-to-project/compare/ee3e3798a70343fff4af3d323dabfb3888e7ac77...27022a19346d0433f2b9859dd2b69d38f4277808)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/add-to-project
+-   dependency-version: 27022a19346d0433f2b9859dd2b69d38f4277808
+-   dependency-type: direct:production
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump redis from 7.3.0 to 7.4.0
+- Bumps [redis](https://github.com/redis/redis-py) from 7.3.0 to 7.4.0.
+- - [Release notes](https://github.com/redis/redis-py/releases)
+- - [Changelog](https://github.com/redis/redis-py/blob/master/CHANGES)
+- - [Commits](https://github.com/redis/redis-py/compare/v7.3.0...v7.4.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: redis
+-   dependency-version: 7.4.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump requests from 2.32.5 to 2.33.0 in the pip group across 1 directory
+- Bumps the pip group with 1 update in the / directory: [requests](https://github.com/psf/requests).
+- Updates `requests` from 2.32.5 to 2.33.0
+- - [Release notes](https://github.com/psf/requests/releases)
+- - [Changelog](https://github.com/psf/requests/blob/main/HISTORY.md)
+- - [Commits](https://github.com/psf/requests/compare/v2.32.5...v2.33.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: requests
+-   dependency-version: 2.33.0
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '341-bump-requests-from-2325-to-2330-in-the-pip-group-across-1-directory324' into dependabot/pip/pip-aa7cb66ac2
+- Merge pull request #324 from edwardtheharris/dependabot/pip/pip-aa7cb66ac2
+- Bump requests from 2.32.5 to 2.33.0 in the pip group across 1 directory
+- Closes #341
+- Merge pull request #342 from edwardtheharris/341-bump-requests-from-2325-to-2330-in-the-pip-group-across-1-directory324
+- 341 bump requests from 2325 to 2330 in the pip group across 1 directory324
+- Closes #341
+- Merge branch '345-bump-redis-from-730-to-740330' into dependabot/pip/redis-7.4.0
+- Merge pull request #330 from edwardtheharris/dependabot/pip/redis-7.4.0
+- Bump redis from 7.3.0 to 7.4.0
+- Closes #345
+- Bump ansible from 13.4.0 to 13.5.0
+- Bumps [ansible](https://github.com/ansible-community/ansible-build-data) from 13.4.0 to 13.5.0.
+- - [Changelog](https://github.com/ansible-community/ansible-build-data/blob/main/docs/release-process.md)
+- - [Commits](https://github.com/ansible-community/ansible-build-data/compare/13.4.0...13.5.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: ansible
+-   dependency-version: 13.5.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '343-bump-ansible-from-1340-to-1350329' into dependabot/pip/ansible-13.5.0
+- Merge pull request #329 from edwardtheharris/dependabot/pip/ansible-13.5.0
+- Bump ansible from 13.4.0 to 13.5.0
+- Closes #343
+- Merge branch 'main' into 343-bump-ansible-from-1340-to-1350329
+- Merge pull request #344 from edwardtheharris/343-bump-ansible-from-1340-to-1350329
+- 343 bump ansible from 1340 to 1350329
+- Closes #343
+- Merge branch 'main' into 345-bump-redis-from-730-to-740330
+- Merge pull request #346 from edwardtheharris/345-bump-redis-from-730-to-740330
+- 345 bump redis from 730 to 740330
+- Closes #345
+- Merge branch '353-bump-actionsadd-to-project-from-ee3e3798a70343fff4af3d323dabfb3888e7ac77-to-27022a19346d0433f2b9859dd2b69d38f4277808332' into dependabot/github_actions/actions/add-to-project-27022a19346d0433f2b9859dd2b69d38f4277808
+- Merge pull request #332 from edwardtheharris/dependabot/github_actions/actions/add-to-project-27022a19346d0433f2b9859dd2b69d38f4277808
+- Bump actions/add-to-project from ee3e3798a70343fff4af3d323dabfb3888e7ac77 to 27022a19346d0433f2b9859dd2b69d38f4277808
+- Closes #353
+- Merge pull request #354 from edwardtheharris/353-bump-actionsadd-to-project-from-ee3e3798a70343fff4af3d323dabfb3888e7ac77-to-27022a19346d0433f2b9859dd2b69d38f4277808332
+- 353 bump actionsadd to project from ee3e3798a70343fff4af3d323dabfb3888e7ac77 to 27022a19346d0433f2b9859dd2b69d38f4277808332
+- Closes #353
 ## [0.0.3] - 2026-02-12
 
-### 🚀 Features - 0.0.3
+### 💼 Other - 0.0.3
+
+
+- Merge branch 'main' into 187-release-002
+- Merge pull request #243 from edwardtheharris/187-release-002
+- 187 release 002
+- See #187
+- Merge branch 'main' of
+- Edwardtheharris/ansible-monitoring
+- Into 187-release-003
+- Closes #187
+- Update reflog
+- Closes #187
+## [0.0.2] - 2026-02-12
+
+### 🚀 Features - 0.0.2
 
 
 - *(Add-commitizen-to-dev-packages)* Update pipenv with commitizen
 
 
-### 💼 Other - 0.0.3
+### 💼 Other - 0.0.2
 
 
+- Merge pull request #121 from edwardtheharris/119-release-001
+- Add changelog, cliff
+- Closes #121
+- Merge branch 'main' into 117-bump-step-securityharden-runner-from-2131-to-2132-109
+- Merge pull request #118 from edwardtheharris/117-bump-step-securityharden-runner-from-2131-to-2132-109
+- 117 bump step securityharden runner from 2131 to 2132 109
+- Closes #117
+- Bump pytest from 8.4.2 to 9.0.0
+- Bumps [pytest](https://github.com/pytest-dev/pytest) from 8.4.2 to 9.0.0.
+- - [Release notes](https://github.com/pytest-dev/pytest/releases)
+- - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
+- - [Commits](https://github.com/pytest-dev/pytest/compare/8.4.2...9.0.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: pytest
+-   dependency-version: 9.0.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #123 from edwardtheharris/dependabot/pip/pytest-9.0.0
+- Bump pytest from 8.4.2 to 9.0.0
+- Closes #124
+- Merge pull request #125 from edwardtheharris/124-bump-pytest-from-842-to-900-123
+- 124 bump pytest from 842 to 900 123
+- Closes #124
+- Bump actions/setup-python from 6.0.0 to 6.1.0
+- Bumps [actions/setup-python](https://github.com/actions/setup-python) from 6.0.0 to 6.1.0.
+- - [Release notes](https://github.com/actions/setup-python/releases)
+- - [Commits](https://github.com/actions/setup-python/compare/e797f83bcb11b83ae66e0230d6156d7c80228e7c...83679a892e2d95755f2dac6acb0bfd1e9ac5d548)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/setup-python
+-   dependency-version: 6.1.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #135 from edwardtheharris/dependabot/github_actions/actions/setup-python-6.1.0
+- Bump actions/setup-python from 6.0.0 to 6.1.0
+- Closes #136
+- Drop security md
+- Closes #136
+- Merge pull request #137 from edwardtheharris/136-bump-actionssetup-python-from-600-to-610-135
+- 136 bump actionssetup python from 600 to 610 135
+- Closes #137
+- Bump actions/add-to-project
+- Bumps [actions/add-to-project](https://github.com/actions/add-to-project) from 4fda2e598c349fd1d6770dc6df8b0b61158c3e90 to 32da07cbb30091816ce54192caf97979d0812456.
+- - [Release notes](https://github.com/actions/add-to-project/releases)
+- - [Commits](https://github.com/actions/add-to-project/compare/4fda2e598c349fd1d6770dc6df8b0b61158c3e90...32da07cbb30091816ce54192caf97979d0812456)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/add-to-project
+-   dependency-version: 32da07cbb30091816ce54192caf97979d0812456
+-   dependency-type: direct:production
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump pre-commit from 4.3.0 to 4.5.0
+- Bumps [pre-commit](https://github.com/pre-commit/pre-commit) from 4.3.0 to 4.5.0.
+- - [Release notes](https://github.com/pre-commit/pre-commit/releases)
+- - [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/pre-commit/pre-commit/compare/v4.3.0...v4.5.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: pre-commit
+-   dependency-version: 4.5.0
+-   dependency-type: direct:development
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #134 from edwardtheharris/dependabot/pip/pre-commit-4.5.0
+- Bump pre-commit from 4.3.0 to 4.5.0
+- Closes #138
+- Merge branch 'main' into 138-bump-pre-commit-from-430-to-450-134
+- Merge pull request #139 from edwardtheharris/138-bump-pre-commit-from-430-to-450-134
+- 138 bump pre commit from 430 to 450 134
+- Closes #138
+- Merge branch '145-bump-actionsadd-to-project-from-4fda2e598c349fd1d6770dc6df8b0b61158c3e90-to-32da07cbb30091816ce54192caf97979d0812456-128' into dependabot/github_actions/actions/add-to-project-32da07cbb30091816ce54192caf97979d0812456
+- Merge pull request #128 from edwardtheharris/dependabot/github_actions/actions/add-to-project-32da07cbb30091816ce54192caf97979d0812456
+- Bump actions/add-to-project from 4fda2e598c349fd1d6770dc6df8b0b61158c3e90 to 32da07cbb30091816ce54192caf97979d0812456
+- Closes #145
+- Merge pull request #146 from edwardtheharris/145-bump-actionsadd-to-project-from-4fda2e598c349fd1d6770dc6df8b0b61158c3e90-to-32da07cbb30091816ce54192caf97979d0812456-128
+- 145 bump actionsadd to project from 4fda2e598c349fd1d6770dc6df8b0b61158c3e90 to 32da07cbb30091816ce54192caf97979d0812456 128
+- Closes #145
+- Bump redis from 7.0.1 to 7.1.0
+- Bumps [redis](https://github.com/redis/redis-py) from 7.0.1 to 7.1.0.
+- - [Release notes](https://github.com/redis/redis-py/releases)
+- - [Changelog](https://github.com/redis/redis-py/blob/master/CHANGES)
+- - [Commits](https://github.com/redis/redis-py/compare/v7.0.1...v7.1.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: redis
+-   dependency-version: 7.1.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #130 from edwardtheharris/dependabot/pip/redis-7.1.0
+- Bump redis from 7.0.1 to 7.1.0
+- Closes #148
+- Merge pull request #149 from edwardtheharris/148-bump-redis-from-701-to-710-130
+- 148 bump redis from 701 to 710 130
+- Closes #148
+- Bump pytest from 9.0.0 to 9.0.1
+- Bumps [pytest](https://github.com/pytest-dev/pytest) from 9.0.0 to 9.0.1.
+- - [Release notes](https://github.com/pytest-dev/pytest/releases)
+- - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
+- - [Commits](https://github.com/pytest-dev/pytest/compare/9.0.0...9.0.1)
+- ---
+- Updated-dependencies:
+- - dependency-name: pytest
+-   dependency-version: 9.0.1
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #131 from edwardtheharris/dependabot/pip/pytest-9.0.1
+- Bump pytest from 9.0.0 to 9.0.1
+- Closes #150
+- Merge pull request #151 from edwardtheharris/150-bump-pytest-from-900-to-901-131
+- 150 bump pytest from 900 to 901 131
+- Closes #150
+- Bump ansible-navigator from 25.9.0 to 25.11.0
+- Bumps [ansible-navigator](https://github.com/ansible/ansible-navigator) from 25.9.0 to 25.11.0.
+- - [Release notes](https://github.com/ansible/ansible-navigator/releases)
+- - [Changelog](https://github.com/ansible/ansible-navigator/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/ansible/ansible-navigator/compare/v25.9.0...v25.11.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: ansible-navigator
+-   dependency-version: 25.11.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #133 from edwardtheharris/dependabot/pip/ansible-navigator-25.11.0
+- Bump ansible-navigator from 25.9.0 to 25.11.0
+- Closes #152
+- Adjust lint workflow
+- Closes #152
+- Bump actions/setup-node from 6.0.0 to 6.1.0
+- Bumps [actions/setup-node](https://github.com/actions/setup-node) from 6.0.0 to 6.1.0.
+- - [Release notes](https://github.com/actions/setup-node/releases)
+- - [Commits](https://github.com/actions/setup-node/compare/2028fbc5c25fe9cf00d9f06a71cc4710d4507903...395ad3262231945c25e8478fd5baf05154b1d79f)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/setup-node
+-   dependency-version: 6.1.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-minor
+- ...
+- Dependabot[bot] <support@github.com>
+- Bump ansible from 12.2.0 to 13.0.0
+- Bumps [ansible](https://github.com/ansible-community/ansible-build-data) from 12.2.0 to 13.0.0.
+- - [Changelog](https://github.com/ansible-community/ansible-build-data/blob/main/docs/release-process.md)
+- - [Commits](https://github.com/ansible-community/ansible-build-data/compare/12.2.0...13.0.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: ansible
+-   dependency-version: 13.0.0
+-   dependency-type: direct:production
+-   update-type: version-update:semver-major
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #140 from edwardtheharris/dependabot/pip/ansible-13.0.0
+- Bump ansible from 12.2.0 to 13.0.0
+- Closes #159
+- Merge pull request #160 from edwardtheharris/159-bump-ansible-from-1220-to-1300-140
+- 159 bump ansible from 1220 to 1300 140
+- Closes #159
+- Merge branch '161-bump-actionssetup-node-from-600-to-610-143' into dependabot/github_actions/actions/setup-node-6.1.0
+- Merge pull request #143 from edwardtheharris/dependabot/github_actions/actions/setup-node-6.1.0
+- Bump actions/setup-node from 6.0.0 to 6.1.0
+- Closes #161
+- Merge pull request #162 from edwardtheharris/161-bump-actionssetup-node-from-600-to-610-143
+- 161 bump actionssetup node from 600 to 610 143
+- Closes #161
+- Bump actions/checkout from 6.pre.beta to 6.0.1
+- Bumps [actions/checkout](https://github.com/actions/checkout) from 6.pre.beta to 6.0.1.
+- - [Release notes](https://github.com/actions/checkout/releases)
+- - [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- - [Commits](https://github.com/actions/checkout/compare/71cf2267d89c5cb81562390fa70a37fa40b1305e...8e8c483db84b4bee98b60c0593521ed34d9990e8)
+- ---
+- Updated-dependencies:
+- - dependency-name: actions/checkout
+-   dependency-version: 6.0.1
+-   dependency-type: direct:production
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge pull request #144 from edwardtheharris/dependabot/github_actions/actions/checkout-6.0.1
+- Bump actions/checkout from 6.pre.beta to 6.0.1
+- Closes #163
+- Merge pull request #164 from edwardtheharris/163-bump-actionscheckout-from-6prebeta-to-601-144
+- 163 bump actionscheckout from 6prebeta to 601 144
+- Closes #163
+- Merge branch 'main' into 152-bump-ansible-navigator-from-2590-to-25110-133
+- Bump urllib3 from 2.5.0 to 2.6.0 in the pip group across 1 directory
+- Bumps the pip group with 1 update in the / directory: [urllib3](https://github.com/urllib3/urllib3).
+- Updates `urllib3` from 2.5.0 to 2.6.0
+- - [Release notes](https://github.com/urllib3/urllib3/releases)
+- - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
+- - [Commits](https://github.com/urllib3/urllib3/compare/2.5.0...2.6.0)
+- ---
+- Updated-dependencies:
+- - dependency-name: urllib3
+-   dependency-version: 2.6.0
+-   dependency-type: indirect
+-   dependency-group: pip
+- ...
+- Dependabot[bot] <support@github.com>
+- Merge branch '165-bump-actionscheckout-from-6prebeta-to-601-144' into dependabot/pip/pip-a6aa50acab
+- Merge pull request #147 from edwardtheharris/dependabot/pip/pip-a6aa50acab
+- Bump urllib3 from 2.5.0 to 2.6.0 in the pip group across 1 directory
+- Closes #165
+- Merge branch 'main' into 165-bump-actionscheckout-from-6prebeta-to-601-144
+- Merge pull request #166 from edwardtheharris/165-bump-actionscheckout-from-6prebeta-to-601-144
+- 165 bump actionscheckout from 6prebeta to 601 144
+- Closes #165
+- Merge branch 'main' into 152-bump-ansible-navigator-from-2590-to-25110-133
+- Merge pull request #153 from edwardtheharris/152-bump-ansible-navigator-from-2590-to-25110-133
+- 152 bump ansible navigator from 2590 to 25110 133
+- Closes #153
+- Bump pytest from 9.0.1 to 9.0.2
+- Bumps [pytest](https://github.com/pytest-dev/pytest) from 9.0.1 to 9.0.2.
+- - [Release notes](https://github.com/pytest-dev/pytest/releases)
+- - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
+- - [Commits](https://github.com/pytest-dev/pytest/compare/9.0.1...9.0.2)
+- ---
+- Updated-dependencies:
+- - dependency-name: pytest
+-   dependency-version: 9.0.2
+-   dependency-type: direct:development
+-   update-type: version-update:semver-patch
+- ...
+- Dependabot[bot] <support@github.com>
+- Update changelog
+- Closes #120
 - Merge pull request #167 from edwardtheharris/120-release-002
 - Update changelog
 - Closes #120
@@ -362,248 +1432,12 @@ title: Breeze Blocks Ansible Kubernetes Control Plane
 - *(Add-commitizen-to-dev-packages)* Update pipenv with commitizen
 - Update changelog
 - Closes #187
-## [0.0.2] - 2025-12-15
-
-### 💼 Other - 0.0.2
-
-
-- Merge pull request #121 from edwardtheharris/119-release-001
-- Add changelog, cliff
-- Closes #121
-- Merge branch 'main' into 117-bump-step-securityharden-runner-from-2131-to-2132-109
-- Merge pull request #118 from edwardtheharris/117-bump-step-securityharden-runner-from-2131-to-2132-109
-- 117 bump step securityharden runner from 2131 to 2132 109
-- Closes #117
-- Bump pytest from 8.4.2 to 9.0.0
-- Bumps [pytest](https://github.com/pytest-dev/pytest) from 8.4.2 to 9.0.0.
-- - [Release notes](https://github.com/pytest-dev/pytest/releases)
-- - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
-- - [Commits](https://github.com/pytest-dev/pytest/compare/8.4.2...9.0.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: pytest
--   dependency-version: 9.0.0
--   dependency-type: direct:development
--   update-type: version-update:semver-major
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #123 from edwardtheharris/dependabot/pip/pytest-9.0.0
-- Bump pytest from 8.4.2 to 9.0.0
-- Closes #124
-- Merge pull request #125 from edwardtheharris/124-bump-pytest-from-842-to-900-123
-- 124 bump pytest from 842 to 900 123
-- Closes #124
-- Bump actions/setup-python from 6.0.0 to 6.1.0
-- Bumps [actions/setup-python](https://github.com/actions/setup-python) from 6.0.0 to 6.1.0.
-- - [Release notes](https://github.com/actions/setup-python/releases)
-- - [Commits](https://github.com/actions/setup-python/compare/e797f83bcb11b83ae66e0230d6156d7c80228e7c...83679a892e2d95755f2dac6acb0bfd1e9ac5d548)
-- ---
-- Updated-dependencies:
-- - dependency-name: actions/setup-python
--   dependency-version: 6.1.0
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #135 from edwardtheharris/dependabot/github_actions/actions/setup-python-6.1.0
-- Bump actions/setup-python from 6.0.0 to 6.1.0
-- Closes #136
-- Drop security md
-- Closes #136
-- Merge pull request #137 from edwardtheharris/136-bump-actionssetup-python-from-600-to-610-135
-- 136 bump actionssetup python from 600 to 610 135
-- Closes #137
-- Bump actions/add-to-project
-- Bumps [actions/add-to-project](https://github.com/actions/add-to-project) from 4fda2e598c349fd1d6770dc6df8b0b61158c3e90 to 32da07cbb30091816ce54192caf97979d0812456.
-- - [Release notes](https://github.com/actions/add-to-project/releases)
-- - [Commits](https://github.com/actions/add-to-project/compare/4fda2e598c349fd1d6770dc6df8b0b61158c3e90...32da07cbb30091816ce54192caf97979d0812456)
-- ---
-- Updated-dependencies:
-- - dependency-name: actions/add-to-project
--   dependency-version: 32da07cbb30091816ce54192caf97979d0812456
--   dependency-type: direct:production
-- ...
-- Dependabot[bot] <support@github.com>
-- Bump pre-commit from 4.3.0 to 4.5.0
-- Bumps [pre-commit](https://github.com/pre-commit/pre-commit) from 4.3.0 to 4.5.0.
-- - [Release notes](https://github.com/pre-commit/pre-commit/releases)
-- - [Changelog](https://github.com/pre-commit/pre-commit/blob/main/CHANGELOG.md)
-- - [Commits](https://github.com/pre-commit/pre-commit/compare/v4.3.0...v4.5.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: pre-commit
--   dependency-version: 4.5.0
--   dependency-type: direct:development
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #134 from edwardtheharris/dependabot/pip/pre-commit-4.5.0
-- Bump pre-commit from 4.3.0 to 4.5.0
-- Closes #138
-- Merge branch 'main' into 138-bump-pre-commit-from-430-to-450-134
-- Merge pull request #139 from edwardtheharris/138-bump-pre-commit-from-430-to-450-134
-- 138 bump pre commit from 430 to 450 134
-- Closes #138
-- Merge branch '145-bump-actionsadd-to-project-from-4fda2e598c349fd1d6770dc6df8b0b61158c3e90-to-32da07cbb30091816ce54192caf97979d0812456-128' into dependabot/github_actions/actions/add-to-project-32da07cbb30091816ce54192caf97979d0812456
-- Merge pull request #128 from edwardtheharris/dependabot/github_actions/actions/add-to-project-32da07cbb30091816ce54192caf97979d0812456
-- Bump actions/add-to-project from 4fda2e598c349fd1d6770dc6df8b0b61158c3e90 to 32da07cbb30091816ce54192caf97979d0812456
-- Closes #145
-- Merge pull request #146 from edwardtheharris/145-bump-actionsadd-to-project-from-4fda2e598c349fd1d6770dc6df8b0b61158c3e90-to-32da07cbb30091816ce54192caf97979d0812456-128
-- 145 bump actionsadd to project from 4fda2e598c349fd1d6770dc6df8b0b61158c3e90 to 32da07cbb30091816ce54192caf97979d0812456 128
-- Closes #145
-- Bump redis from 7.0.1 to 7.1.0
-- Bumps [redis](https://github.com/redis/redis-py) from 7.0.1 to 7.1.0.
-- - [Release notes](https://github.com/redis/redis-py/releases)
-- - [Changelog](https://github.com/redis/redis-py/blob/master/CHANGES)
-- - [Commits](https://github.com/redis/redis-py/compare/v7.0.1...v7.1.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: redis
--   dependency-version: 7.1.0
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #130 from edwardtheharris/dependabot/pip/redis-7.1.0
-- Bump redis from 7.0.1 to 7.1.0
-- Closes #148
-- Merge pull request #149 from edwardtheharris/148-bump-redis-from-701-to-710-130
-- 148 bump redis from 701 to 710 130
-- Closes #148
-- Bump pytest from 9.0.0 to 9.0.1
-- Bumps [pytest](https://github.com/pytest-dev/pytest) from 9.0.0 to 9.0.1.
-- - [Release notes](https://github.com/pytest-dev/pytest/releases)
-- - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
-- - [Commits](https://github.com/pytest-dev/pytest/compare/9.0.0...9.0.1)
-- ---
-- Updated-dependencies:
-- - dependency-name: pytest
--   dependency-version: 9.0.1
--   dependency-type: direct:development
--   update-type: version-update:semver-patch
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #131 from edwardtheharris/dependabot/pip/pytest-9.0.1
-- Bump pytest from 9.0.0 to 9.0.1
-- Closes #150
-- Merge pull request #151 from edwardtheharris/150-bump-pytest-from-900-to-901-131
-- 150 bump pytest from 900 to 901 131
-- Closes #150
-- Bump ansible-navigator from 25.9.0 to 25.11.0
-- Bumps [ansible-navigator](https://github.com/ansible/ansible-navigator) from 25.9.0 to 25.11.0.
-- - [Release notes](https://github.com/ansible/ansible-navigator/releases)
-- - [Changelog](https://github.com/ansible/ansible-navigator/blob/main/CHANGELOG.md)
-- - [Commits](https://github.com/ansible/ansible-navigator/compare/v25.9.0...v25.11.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: ansible-navigator
--   dependency-version: 25.11.0
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #133 from edwardtheharris/dependabot/pip/ansible-navigator-25.11.0
-- Bump ansible-navigator from 25.9.0 to 25.11.0
-- Closes #152
-- Adjust lint workflow
-- Closes #152
-- Bump actions/setup-node from 6.0.0 to 6.1.0
-- Bumps [actions/setup-node](https://github.com/actions/setup-node) from 6.0.0 to 6.1.0.
-- - [Release notes](https://github.com/actions/setup-node/releases)
-- - [Commits](https://github.com/actions/setup-node/compare/2028fbc5c25fe9cf00d9f06a71cc4710d4507903...395ad3262231945c25e8478fd5baf05154b1d79f)
-- ---
-- Updated-dependencies:
-- - dependency-name: actions/setup-node
--   dependency-version: 6.1.0
--   dependency-type: direct:production
--   update-type: version-update:semver-minor
-- ...
-- Dependabot[bot] <support@github.com>
-- Bump ansible from 12.2.0 to 13.0.0
-- Bumps [ansible](https://github.com/ansible-community/ansible-build-data) from 12.2.0 to 13.0.0.
-- - [Changelog](https://github.com/ansible-community/ansible-build-data/blob/main/docs/release-process.md)
-- - [Commits](https://github.com/ansible-community/ansible-build-data/compare/12.2.0...13.0.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: ansible
--   dependency-version: 13.0.0
--   dependency-type: direct:production
--   update-type: version-update:semver-major
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #140 from edwardtheharris/dependabot/pip/ansible-13.0.0
-- Bump ansible from 12.2.0 to 13.0.0
-- Closes #159
-- Merge pull request #160 from edwardtheharris/159-bump-ansible-from-1220-to-1300-140
-- 159 bump ansible from 1220 to 1300 140
-- Closes #159
-- Merge branch '161-bump-actionssetup-node-from-600-to-610-143' into dependabot/github_actions/actions/setup-node-6.1.0
-- Merge pull request #143 from edwardtheharris/dependabot/github_actions/actions/setup-node-6.1.0
-- Bump actions/setup-node from 6.0.0 to 6.1.0
-- Closes #161
-- Merge pull request #162 from edwardtheharris/161-bump-actionssetup-node-from-600-to-610-143
-- 161 bump actionssetup node from 600 to 610 143
-- Closes #161
-- Bump actions/checkout from 6.pre.beta to 6.0.1
-- Bumps [actions/checkout](https://github.com/actions/checkout) from 6.pre.beta to 6.0.1.
-- - [Release notes](https://github.com/actions/checkout/releases)
-- - [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
-- - [Commits](https://github.com/actions/checkout/compare/71cf2267d89c5cb81562390fa70a37fa40b1305e...8e8c483db84b4bee98b60c0593521ed34d9990e8)
-- ---
-- Updated-dependencies:
-- - dependency-name: actions/checkout
--   dependency-version: 6.0.1
--   dependency-type: direct:production
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge pull request #144 from edwardtheharris/dependabot/github_actions/actions/checkout-6.0.1
-- Bump actions/checkout from 6.pre.beta to 6.0.1
-- Closes #163
-- Merge pull request #164 from edwardtheharris/163-bump-actionscheckout-from-6prebeta-to-601-144
-- 163 bump actionscheckout from 6prebeta to 601 144
-- Closes #163
-- Merge branch 'main' into 152-bump-ansible-navigator-from-2590-to-25110-133
-- Bump urllib3 from 2.5.0 to 2.6.0 in the pip group across 1 directory
-- Bumps the pip group with 1 update in the / directory: [urllib3](https://github.com/urllib3/urllib3).
-- Updates `urllib3` from 2.5.0 to 2.6.0
-- - [Release notes](https://github.com/urllib3/urllib3/releases)
-- - [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)
-- - [Commits](https://github.com/urllib3/urllib3/compare/2.5.0...2.6.0)
-- ---
-- Updated-dependencies:
-- - dependency-name: urllib3
--   dependency-version: 2.6.0
--   dependency-type: indirect
--   dependency-group: pip
-- ...
-- Dependabot[bot] <support@github.com>
-- Merge branch '165-bump-actionscheckout-from-6prebeta-to-601-144' into dependabot/pip/pip-a6aa50acab
-- Merge pull request #147 from edwardtheharris/dependabot/pip/pip-a6aa50acab
-- Bump urllib3 from 2.5.0 to 2.6.0 in the pip group across 1 directory
-- Closes #165
-- Merge branch 'main' into 165-bump-actionscheckout-from-6prebeta-to-601-144
-- Merge pull request #166 from edwardtheharris/165-bump-actionscheckout-from-6prebeta-to-601-144
-- 165 bump actionscheckout from 6prebeta to 601 144
-- Closes #165
-- Merge branch 'main' into 152-bump-ansible-navigator-from-2590-to-25110-133
-- Merge pull request #153 from edwardtheharris/152-bump-ansible-navigator-from-2590-to-25110-133
-- 152 bump ansible navigator from 2590 to 25110 133
-- Closes #153
-- Bump pytest from 9.0.1 to 9.0.2
-- Bumps [pytest](https://github.com/pytest-dev/pytest) from 9.0.1 to 9.0.2.
-- - [Release notes](https://github.com/pytest-dev/pytest/releases)
-- - [Changelog](https://github.com/pytest-dev/pytest/blob/main/CHANGELOG.rst)
-- - [Commits](https://github.com/pytest-dev/pytest/compare/9.0.1...9.0.2)
-- ---
-- Updated-dependencies:
-- - dependency-name: pytest
--   dependency-version: 9.0.2
--   dependency-type: direct:development
--   update-type: version-update:semver-patch
-- ...
-- Dependabot[bot] <support@github.com>
 - Update changelog
-- Closes #120
+- Closes #187
+- Add reflog
+- Closes #187
+- Update changelog
+- Closes #187
 ## [0.0.1] - 2025-11-06
 
 ### 💼 Other - 0.0.1
